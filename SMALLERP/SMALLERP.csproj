@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SMALLERP</RootNamespace>
     <AssemblyName>SMALLERP</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>true</IsWebBootstrapper>
     <FileUpgradeFlags>
@@ -31,6 +31,7 @@
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,6 +43,7 @@
     <WarningLevel>4</WarningLevel>
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -51,19 +53,20 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="crystaldecisions.crystalreports.engine">
-      <HintPath>..\..\..\..\..\..\..\..\download\资料源码\dll\crystaldecisions.crystalreports.engine\x32\10.5.0.1943\crystaldecisions.crystalreports.engine.dll</HintPath>
+      <HintPath>..\dll\crystaldecisions.crystalreports.engine.dll</HintPath>
     </Reference>
     <Reference Include="crystaldecisions.reportsource">
-      <HintPath>..\..\..\..\..\..\..\..\download\资料源码\dll\crystaldecisions.reportsource\x32\10.5.0.1943\crystaldecisions.reportsource.dll</HintPath>
+      <HintPath>..\dll\crystaldecisions.reportsource.dll</HintPath>
     </Reference>
     <Reference Include="crystaldecisions.shared">
-      <HintPath>..\..\..\..\..\..\..\..\download\资料源码\crystaldecisions.shared\x32\10.5.0.1943\crystaldecisions.shared.dll</HintPath>
+      <HintPath>..\dll\crystaldecisions.shared.dll</HintPath>
     </Reference>
     <Reference Include="crystaldecisions.windows.forms">
-      <HintPath>..\..\..\..\..\..\..\..\download\资料源码\dll\crystaldecisions.windows.forms\x32\10.5.0.1943\crystaldecisions.windows.forms.dll</HintPath>
+      <HintPath>..\dll\crystaldecisions.windows.forms.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -613,6 +616,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -22,24 +22,27 @@ namespace SMALLERP.DataClass
         /// </summary>
         public DataBase()
         {
-            /*string strServer = OperatorFile.GetIniFileString("DataBase", "Server", "", Application.StartupPath + "\\SMALLERP.ini");
+            /*string strServer = OperatorFile.GetIniFileString("DataBase", "Server", "", Application.StartupPath + "\\SMALLERP.ini");*/
+
+            string strServer = OperatorFile.GetIniFileString("DataBase", "Server", "", System.Environment.CurrentDirectory + "\\SMALLERP.ini");
             //获取登录用户
-            string strUserID = OperatorFile.GetIniFileString("DataBase", "UserID", "", Application.StartupPath + "\\SMALLERP.ini");
+            string strUserID = OperatorFile.GetIniFileString("DataBase", "UserID", "", System.Environment.CurrentDirectory + "\\SMALLERP.ini");
             //获取登录密码
-            string strPwd = OperatorFile.GetIniFileString("DataBase", "Pwd", "", Application.StartupPath + "\\SMALLERP.ini");
+            string strPwd = OperatorFile.GetIniFileString("DataBase", "Pwd", "", System.Environment.CurrentDirectory + "\\SMALLERP.ini");
             //数据库连接字符串
-            string strConn = "Server = " + strServer + ";Database=ERPDatabase;User id=" + strUserID + ";PWD=" + strPwd;*/
+            string strConn = "Server = " + strServer + ";Database=ERPDatabase;User id=" + strUserID + ";PWD=" + strPwd;
 
             #region 数据库连接字符串
-            string ConnectionString = "Data Source=LAPTOP-49PO82BT; " +
+            /*string ConnectionString = "Data Source=ADAN; " +
             "Initial Catalog=ERPDatabase;Persist Security Info=True; " +
-            "User ID=sa;Password=888888";
+            "User ID=sa;Password=1015";*/
             #endregion
 
 
             try
             {
-                m_Conn = new SqlConnection(ConnectionString);
+                /*m_Conn = new SqlConnection(ConnectionString);*/
+                m_Conn = new SqlConnection(strConn);
                 m_Cmd = new SqlCommand();
                 m_Cmd.Connection = m_Conn;
             }
