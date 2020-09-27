@@ -49,21 +49,23 @@
             // txtPwd
             // 
             this.txtPwd.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPwd.Location = new System.Drawing.Point(249, 184);
+            this.txtPwd.Location = new System.Drawing.Point(498, 368);
+            this.txtPwd.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtPwd.MaxLength = 20;
             this.txtPwd.Name = "txtPwd";
             this.txtPwd.PasswordChar = '*';
-            this.txtPwd.Size = new System.Drawing.Size(116, 14);
+            this.txtPwd.Size = new System.Drawing.Size(232, 28);
             this.txtPwd.TabIndex = 2;
             this.txtPwd.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPwd_KeyDown);
             // 
             // txtCode
             // 
             this.txtCode.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtCode.Location = new System.Drawing.Point(249, 158);
+            this.txtCode.Location = new System.Drawing.Point(498, 316);
+            this.txtCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtCode.MaxLength = 10;
             this.txtCode.Name = "txtCode";
-            this.txtCode.Size = new System.Drawing.Size(116, 14);
+            this.txtCode.Size = new System.Drawing.Size(232, 28);
             this.txtCode.TabIndex = 1;
             this.txtCode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCode_KeyDown);
             // 
@@ -71,9 +73,10 @@
             // 
             this.picLogin.BackColor = System.Drawing.Color.Transparent;
             this.picLogin.Image = ((System.Drawing.Image)(resources.GetObject("picLogin.Image")));
-            this.picLogin.Location = new System.Drawing.Point(188, 211);
+            this.picLogin.Location = new System.Drawing.Point(376, 422);
+            this.picLogin.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.picLogin.Name = "picLogin";
-            this.picLogin.Size = new System.Drawing.Size(55, 21);
+            this.picLogin.Size = new System.Drawing.Size(110, 42);
             this.picLogin.TabIndex = 4;
             this.picLogin.TabStop = false;
             this.picLogin.Click += new System.EventHandler(this.picLogin_Click);
@@ -82,9 +85,10 @@
             // 
             this.picReset.BackColor = System.Drawing.Color.Transparent;
             this.picReset.Image = ((System.Drawing.Image)(resources.GetObject("picReset.Image")));
-            this.picReset.Location = new System.Drawing.Point(249, 211);
+            this.picReset.Location = new System.Drawing.Point(498, 422);
+            this.picReset.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.picReset.Name = "picReset";
-            this.picReset.Size = new System.Drawing.Size(52, 21);
+            this.picReset.Size = new System.Drawing.Size(104, 42);
             this.picReset.TabIndex = 5;
             this.picReset.TabStop = false;
             this.picReset.Click += new System.EventHandler(this.picReset_Click);
@@ -93,30 +97,33 @@
             // 
             this.picQuit.BackColor = System.Drawing.Color.Transparent;
             this.picQuit.Image = ((System.Drawing.Image)(resources.GetObject("picQuit.Image")));
-            this.picQuit.Location = new System.Drawing.Point(307, 211);
+            this.picQuit.Location = new System.Drawing.Point(614, 422);
+            this.picQuit.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.picQuit.Name = "picQuit";
-            this.picQuit.Size = new System.Drawing.Size(52, 21);
+            this.picQuit.Size = new System.Drawing.Size(104, 42);
             this.picQuit.TabIndex = 6;
             this.picQuit.TabStop = false;
             this.picQuit.Click += new System.EventHandler(this.picQuit_Click);
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(422, 260);
+            this.ClientSize = new System.Drawing.Size(842, 513);
             this.Controls.Add(this.picQuit);
             this.Controls.Add(this.picReset);
             this.Controls.Add(this.picLogin);
             this.Controls.Add(this.txtCode);
             this.Controls.Add(this.txtPwd);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "用户登录";
+            this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errInfo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogin)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picReset)).EndInit();
