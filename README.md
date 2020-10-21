@@ -1,1 +1,1 @@
-# SexTeaERP 完整版
+# SexTeaERP 精简版
