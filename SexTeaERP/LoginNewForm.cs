@@ -10,52 +10,50 @@ using SexTeaERP.DataClass;
 using SexTeaERP.ComClass;
 using System.Data.SqlClient;
 using SexTeaERP;
+using CCWin;
 
 namespace SexTeaERP
 {
-    public partial class Login : Form
+    public partial class LoginNewForm : CCSkinMain
     {
         DataBase db = new DataBase();
         SqlDataReader sdr = null;
 
-        public Login()
+        public LoginNewForm()
         {
             InitializeComponent();
         }
-        //登录用户文本框敲回车键
-        private void txtCode_KeyDown(object sender, KeyEventArgs e)
+
+        private void LoginNewForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void wtbUid_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
-                txtPwd.Focus();
+                wtbPwd.Focus();
             }
         }
-        //登录密码文本框敲回车键
-        private void txtPwd_KeyDown(object sender, KeyEventArgs e)
+
+        private void wtbPwd_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
-                //picLogin_Click(sender,e);
-                LoginBtn_Click(sender, e);
+                LoginSkBtns_Click(sender, e);
             }
         }
-        
 
-        private void Login_Load(object sender, EventArgs e)
+        private void LoginSkBtns_Click(object sender, EventArgs e)
         {
+            this.errorInfo.Clear();
 
-        }
-
-        //登录
-        private void LoginBtn_Click(object sender, EventArgs e)
-        {
-            this.errInfo.Clear();
-
-            if (String.IsNullOrEmpty(this.txtCode.Text.Trim()))
+            if (String.IsNullOrEmpty(this.wtbUid.Text.Trim()))
             {
                 try
                 {
-                    this.errInfo.SetError(this.txtCode, "用户编码不能为空！");
+                    this.errorInfo.SetError(this.wtbUid, "用户编码不能为空！");
                     return;
                 }
                 catch (Exception ex)
@@ -69,11 +67,11 @@ namespace SexTeaERP
                 }
             }
 
-            if (String.IsNullOrEmpty(this.txtPwd.Text.Trim()))
+            if (String.IsNullOrEmpty(this.wtbPwd.Text.Trim()))
             {
                 try
                 {
-                    this.errInfo.SetError(this.txtPwd, "用户密码不能为空！");
+                    this.errorInfo.SetError(this.wtbPwd, "用户密码不能为空！");
                     return;
                 }
                 catch (Exception ex)
@@ -87,7 +85,7 @@ namespace SexTeaERP
                 }
             }
 
-            string strSql = "select * from SYOperator where OperatorCode = '" + txtCode.Text.Trim() + "' and PassWord = '" + txtPwd.Text.Trim() + "'";
+            string strSql = "select * from SYOperator where OperatorCode = '" + wtbUid.Text.Trim() + "' and PassWord = '" + wtbPwd.Text.Trim() + "'";
 
             try
             {
@@ -119,27 +117,15 @@ namespace SexTeaERP
             }
         }
 
-        //退出
-        private void QuitBtn_Click(object sender, EventArgs e)
+        private void ResetSkBtn_Click(object sender, EventArgs e)
+        {
+            wtbUid.Text = "";
+            wtbPwd.Text = "";
+        }
+
+        private void QuitSkBtn_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        //重置
-        private void ResetBtn_Click(object sender, EventArgs e)
-        {
-            txtCode.Text = "";
-            txtPwd.Text = "";
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtCode_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

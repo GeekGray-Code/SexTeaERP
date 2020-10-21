@@ -65,6 +65,7 @@
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(282, 35);
             this.txtCode.TabIndex = 0;
+            this.txtCode.TextChanged += new System.EventHandler(this.txtCode_TextChanged);
             this.txtCode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCode_KeyDown);
             // 
             // label1

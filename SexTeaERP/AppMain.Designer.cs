@@ -88,7 +88,6 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.基础管理ToolStripMenuItem,
@@ -101,7 +100,7 @@
             this.系统管理ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(2010, 40);
+            this.menuStrip1.Size = new System.Drawing.Size(2065, 40);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -572,10 +571,10 @@
             this.toolStripStatusLabelTime,
             this.statusLabelTime,
             this.statusLabelOperator});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 1281);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 991);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(2, 0, 28, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(2010, 41);
+            this.statusStrip1.Size = new System.Drawing.Size(2065, 41);
             this.statusStrip1.TabIndex = 2;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -589,7 +588,7 @@
             this.statusLabelTime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.statusLabelTime.BorderStyle = System.Windows.Forms.Border3DStyle.Raised;
             this.statusLabelTime.Name = "statusLabelTime";
-            this.statusLabelTime.Size = new System.Drawing.Size(990, 31);
+            this.statusLabelTime.Size = new System.Drawing.Size(1017, 31);
             this.statusLabelTime.Spring = true;
             this.statusLabelTime.Text = "动态时间显示";
             this.statusLabelTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -599,7 +598,7 @@
             this.statusLabelOperator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.statusLabelOperator.BorderStyle = System.Windows.Forms.Border3DStyle.Raised;
             this.statusLabelOperator.Name = "statusLabelOperator";
-            this.statusLabelOperator.Size = new System.Drawing.Size(990, 31);
+            this.statusLabelOperator.Size = new System.Drawing.Size(1017, 31);
             this.statusLabelOperator.Spring = true;
             this.statusLabelOperator.Text = "当前的操作员";
             this.statusLabelOperator.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -610,7 +609,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(2010, 1322);
+            this.ClientSize = new System.Drawing.Size(2065, 1032);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
