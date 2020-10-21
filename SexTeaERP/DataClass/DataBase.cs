@@ -31,7 +31,7 @@ namespace SexTeaERP.DataClass
             //获取登录密码
             string strPwd = OperatorFile.GetIniFileString("DataBase", "Pwd", "", System.Environment.CurrentDirectory + "\\SexTeaERP.ini");
             //数据库连接字符串
-            string strConn = "Server = " + strServer + ";Database=ERPDatabase;User id=" + strUserID + ";PWD=" + strPwd;
+            string strConn = "Server = " + strServer + ";Database=SexTeaERP;User id=" + strUserID + ";PWD=" + strPwd;
 
             #region 数据库连接字符串
             /*string ConnectionString = "Data Source=ADAN; " +

@@ -73,14 +73,6 @@
             this.银行存取款单ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.采购费用单ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.销售费用单ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.报表ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.材料采购明细表ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.产品销售明细表ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.产品销售毛利明细ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.产品销售毛利汇总ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.库存预警明细表ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.系统管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.操作员管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.密码修改ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -106,11 +98,10 @@
             this.生产管理ToolStripMenuItem,
             this.客户管理ToolStripMenuItem,
             this.财务管理ToolStripMenuItem,
-            this.报表ToolStripMenuItem,
             this.系统管理ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(2010, 42);
+            this.menuStrip1.Size = new System.Drawing.Size(2010, 40);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -127,7 +118,7 @@
             this.基础管理ToolStripMenuItem.ShortcutKeyDisplayString = "";
             this.基础管理ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.B)));
             this.基础管理ToolStripMenuItem.ShowShortcutKeys = false;
-            this.基础管理ToolStripMenuItem.Size = new System.Drawing.Size(193, 38);
+            this.基础管理ToolStripMenuItem.Size = new System.Drawing.Size(193, 36);
             this.基础管理ToolStripMenuItem.Text = "基础管理(&B)";
             // 
             // 类别管理ToolStripMenuItem
@@ -272,7 +263,7 @@
             this.采购管理ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("采购管理ToolStripMenuItem.Image")));
             this.采购管理ToolStripMenuItem.Name = "采购管理ToolStripMenuItem";
             this.采购管理ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.P)));
-            this.采购管理ToolStripMenuItem.Size = new System.Drawing.Size(193, 38);
+            this.采购管理ToolStripMenuItem.Size = new System.Drawing.Size(193, 36);
             this.采购管理ToolStripMenuItem.Text = "采购管理(&P)";
             // 
             // 采购订单ToolStripMenuItem
@@ -311,7 +302,7 @@
             this.销售管理ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("销售管理ToolStripMenuItem.Image")));
             this.销售管理ToolStripMenuItem.Name = "销售管理ToolStripMenuItem";
             this.销售管理ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.S)));
-            this.销售管理ToolStripMenuItem.Size = new System.Drawing.Size(192, 38);
+            this.销售管理ToolStripMenuItem.Size = new System.Drawing.Size(192, 36);
             this.销售管理ToolStripMenuItem.Text = "销售管理(&S)";
             // 
             // 销售订单ToolStripMenuItem
@@ -352,7 +343,7 @@
             this.仓库管理ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("仓库管理ToolStripMenuItem.Image")));
             this.仓库管理ToolStripMenuItem.Name = "仓库管理ToolStripMenuItem";
             this.仓库管理ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.T)));
-            this.仓库管理ToolStripMenuItem.Size = new System.Drawing.Size(192, 38);
+            this.仓库管理ToolStripMenuItem.Size = new System.Drawing.Size(192, 36);
             this.仓库管理ToolStripMenuItem.Text = "仓库管理(&T)";
             // 
             // 领料单ToolStripMenuItem
@@ -410,7 +401,7 @@
             this.生产管理ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("生产管理ToolStripMenuItem.Image")));
             this.生产管理ToolStripMenuItem.Name = "生产管理ToolStripMenuItem";
             this.生产管理ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.R)));
-            this.生产管理ToolStripMenuItem.Size = new System.Drawing.Size(194, 38);
+            this.生产管理ToolStripMenuItem.Size = new System.Drawing.Size(194, 36);
             this.生产管理ToolStripMenuItem.Text = "生产管理(&R)";
             // 
             // 主生产计划ToolStripMenuItem
@@ -458,7 +449,7 @@
             this.客户管理ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("客户管理ToolStripMenuItem.Image")));
             this.客户管理ToolStripMenuItem.Name = "客户管理ToolStripMenuItem";
             this.客户管理ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.C)));
-            this.客户管理ToolStripMenuItem.Size = new System.Drawing.Size(194, 38);
+            this.客户管理ToolStripMenuItem.Size = new System.Drawing.Size(194, 36);
             this.客户管理ToolStripMenuItem.Text = "客户管理(&C)";
             // 
             // 客户进程ToolStripMenuItem
@@ -497,7 +488,7 @@
             this.财务管理ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("财务管理ToolStripMenuItem.Image")));
             this.财务管理ToolStripMenuItem.Name = "财务管理ToolStripMenuItem";
             this.财务管理ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F)));
-            this.财务管理ToolStripMenuItem.Size = new System.Drawing.Size(191, 38);
+            this.财务管理ToolStripMenuItem.Size = new System.Drawing.Size(191, 36);
             this.财务管理ToolStripMenuItem.Text = "财务管理(&F)";
             // 
             // 银行存取款单ToolStripMenuItem
@@ -527,88 +518,6 @@
             this.销售费用单ToolStripMenuItem.Text = "销售费用单";
             this.销售费用单ToolStripMenuItem.Click += new System.EventHandler(this.Menu_Click);
             // 
-            // 报表ToolStripMenuItem
-            // 
-            this.报表ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.材料采购明细表ToolStripMenuItem,
-            this.toolStripMenuItem4,
-            this.产品销售明细表ToolStripMenuItem,
-            this.toolStripMenuItem5,
-            this.产品销售毛利明细ToolStripMenuItem,
-            this.产品销售毛利汇总ToolStripMenuItem,
-            this.库存预警明细表ToolStripMenuItem});
-            this.报表ToolStripMenuItem.Enabled = false;
-            this.报表ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("报表ToolStripMenuItem.Image")));
-            this.报表ToolStripMenuItem.Name = "报表ToolStripMenuItem";
-            this.报表ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.D)));
-            this.报表ToolStripMenuItem.Size = new System.Drawing.Size(196, 38);
-            this.报表ToolStripMenuItem.Text = "报表统计(&D)";
-            this.报表ToolStripMenuItem.Visible = false;
-            this.报表ToolStripMenuItem.Click += new System.EventHandler(this.报表ToolStripMenuItem_Click);
-            // 
-            // 材料采购明细表ToolStripMenuItem
-            // 
-            this.材料采购明细表ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("材料采购明细表ToolStripMenuItem.Image")));
-            this.材料采购明细表ToolStripMenuItem.Name = "材料采购明细表ToolStripMenuItem";
-            this.材料采购明细表ToolStripMenuItem.Size = new System.Drawing.Size(363, 44);
-            this.材料采购明细表ToolStripMenuItem.Tag = "810";
-            this.材料采购明细表ToolStripMenuItem.Text = "原材料采购明细表";
-            this.材料采购明细表ToolStripMenuItem.Click += new System.EventHandler(this.Menu_Click);
-            // 
-            // toolStripMenuItem4
-            // 
-            this.toolStripMenuItem4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem4.Image")));
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(363, 44);
-            this.toolStripMenuItem4.Tag = "820";
-            this.toolStripMenuItem4.Text = "原材料采购汇总表";
-            this.toolStripMenuItem4.Click += new System.EventHandler(this.Menu_Click);
-            // 
-            // 产品销售明细表ToolStripMenuItem
-            // 
-            this.产品销售明细表ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("产品销售明细表ToolStripMenuItem.Image")));
-            this.产品销售明细表ToolStripMenuItem.Name = "产品销售明细表ToolStripMenuItem";
-            this.产品销售明细表ToolStripMenuItem.Size = new System.Drawing.Size(363, 44);
-            this.产品销售明细表ToolStripMenuItem.Tag = "830";
-            this.产品销售明细表ToolStripMenuItem.Text = "产品销售明细表";
-            this.产品销售明细表ToolStripMenuItem.Click += new System.EventHandler(this.Menu_Click);
-            // 
-            // toolStripMenuItem5
-            // 
-            this.toolStripMenuItem5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem5.Image")));
-            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(363, 44);
-            this.toolStripMenuItem5.Tag = "840";
-            this.toolStripMenuItem5.Text = "产品销售汇总表";
-            this.toolStripMenuItem5.Click += new System.EventHandler(this.Menu_Click);
-            // 
-            // 产品销售毛利明细ToolStripMenuItem
-            // 
-            this.产品销售毛利明细ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("产品销售毛利明细ToolStripMenuItem.Image")));
-            this.产品销售毛利明细ToolStripMenuItem.Name = "产品销售毛利明细ToolStripMenuItem";
-            this.产品销售毛利明细ToolStripMenuItem.Size = new System.Drawing.Size(363, 44);
-            this.产品销售毛利明细ToolStripMenuItem.Tag = "850";
-            this.产品销售毛利明细ToolStripMenuItem.Text = "产品销售毛利明细表";
-            this.产品销售毛利明细ToolStripMenuItem.Click += new System.EventHandler(this.Menu_Click);
-            // 
-            // 产品销售毛利汇总ToolStripMenuItem
-            // 
-            this.产品销售毛利汇总ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("产品销售毛利汇总ToolStripMenuItem.Image")));
-            this.产品销售毛利汇总ToolStripMenuItem.Name = "产品销售毛利汇总ToolStripMenuItem";
-            this.产品销售毛利汇总ToolStripMenuItem.Size = new System.Drawing.Size(363, 44);
-            this.产品销售毛利汇总ToolStripMenuItem.Tag = "860";
-            this.产品销售毛利汇总ToolStripMenuItem.Text = "产品销售毛利汇总表";
-            this.产品销售毛利汇总ToolStripMenuItem.Click += new System.EventHandler(this.Menu_Click);
-            // 
-            // 库存预警明细表ToolStripMenuItem
-            // 
-            this.库存预警明细表ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("库存预警明细表ToolStripMenuItem.Image")));
-            this.库存预警明细表ToolStripMenuItem.Name = "库存预警明细表ToolStripMenuItem";
-            this.库存预警明细表ToolStripMenuItem.Size = new System.Drawing.Size(363, 44);
-            this.库存预警明细表ToolStripMenuItem.Tag = "870";
-            this.库存预警明细表ToolStripMenuItem.Text = "库存预警明细表";
-            this.库存预警明细表ToolStripMenuItem.Click += new System.EventHandler(this.Menu_Click);
-            // 
             // 系统管理ToolStripMenuItem
             // 
             this.系统管理ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -618,7 +527,7 @@
             this.系统管理ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("系统管理ToolStripMenuItem.Image")));
             this.系统管理ToolStripMenuItem.Name = "系统管理ToolStripMenuItem";
             this.系统管理ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.Y)));
-            this.系统管理ToolStripMenuItem.Size = new System.Drawing.Size(192, 38);
+            this.系统管理ToolStripMenuItem.Size = new System.Drawing.Size(192, 36);
             this.系统管理ToolStripMenuItem.Text = "系统管理(&Y)";
             // 
             // 操作员管理ToolStripMenuItem
@@ -641,11 +550,13 @@
             // 
             // 权限分配ToolStripMenuItem
             // 
+            this.权限分配ToolStripMenuItem.Enabled = false;
             this.权限分配ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("权限分配ToolStripMenuItem.Image")));
             this.权限分配ToolStripMenuItem.Name = "权限分配ToolStripMenuItem";
             this.权限分配ToolStripMenuItem.Size = new System.Drawing.Size(267, 44);
             this.权限分配ToolStripMenuItem.Tag = "930";
             this.权限分配ToolStripMenuItem.Text = "操作权限";
+            this.权限分配ToolStripMenuItem.Visible = false;
             this.权限分配ToolStripMenuItem.Click += new System.EventHandler(this.Menu_Click);
             // 
             // timerTime
@@ -699,18 +610,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(2010, 1322);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "AppMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ERP管理系统";
+            this.Text = "SexyTeaERP管理系统";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AppMain_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AppMain_FormClosed);
             this.Load += new System.EventHandler(this.AppMain_Load);
@@ -773,14 +684,6 @@
         private System.Windows.Forms.ToolStripMenuItem 银行存取款单ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 采购费用单ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 销售费用单ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 报表ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 材料采购明细表ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 产品销售明细表ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 库存预警明细表ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 产品销售毛利明细ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 产品销售毛利汇总ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
         private System.Windows.Forms.ToolStripMenuItem 系统管理ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 操作员管理ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 密码修改ToolStripMenuItem;
