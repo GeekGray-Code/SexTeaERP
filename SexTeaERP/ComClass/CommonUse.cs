@@ -11,6 +11,7 @@ using CrystalDecisions.Shared; //TableLogOnInfo
 using CrystalDecisions.CrystalReports.Engine; //ReportDocument
 using SexTeaERP.SystemManagement;
 using SexTeaERP.DataClass;
+using SexTeaERP.Base;
 
 namespace SexTeaERP.ComClass
 {
@@ -205,7 +206,35 @@ namespace SexTeaERP.ComClass
             }
         }
 
-       
+
+
+        /// <summary>
+        /// 控制可编辑控件的键盘输入，该方法限定控件只可以接收表示非负十进制数的字符
+        /// </summary>
+        /// <param name="e">为 KeyPress 事件提供数据</param>
+        /// <param name="con">可编辑文本控件</param>
+        public void InputNumeric(KeyPressEventArgs e, Control con)
+        {
+            //在可编辑控件的Text属性为空的情况下，不允许输入".字符"
+            if (String.IsNullOrEmpty(con.Text) && e.KeyChar.ToString() == ".")
+            {
+                //把Handled设为true，取消KeyPress事件，防止控件处理按键
+                e.Handled = true;
+            }
+
+            //可编辑控件不允许输入多个"."字符
+            if (con.Text.Contains(".") && e.KeyChar.ToString() == ".")
+            {
+                e.Handled = true;
+            }
+
+            //在可编辑控件中，只可以输入“数字字符”、".字符" 、"字符"(删除键对应的字符)
+            if (!Char.IsDigit(e.KeyChar) && e.KeyChar.ToString() != "." && e.KeyChar.ToString() != "")
+            {
+                e.Handled = true;
+            }
+        }
+
 
         /// <summary>
         /// 控制可编辑控件的键盘输入，该方法限定控件只可以接收表示非负整数的字符
@@ -524,7 +553,113 @@ namespace SexTeaERP.ComClass
         {
             switch (menuItem.Tag.ToString())
             {
-               
+                case "111":
+
+                    FormBSInvenType invenType = new FormBSInvenType();
+                    invenType.MdiParent = form;
+                    invenType.StartPosition = FormStartPosition.CenterScreen;
+                    invenType.Tag = menuItem.Tag.ToString();
+                    invenType.Show();
+                    break;
+
+                case "112":
+
+                    FormBSDepartment department = new FormBSDepartment();
+                    department.MdiParent = form;
+                    department.StartPosition = FormStartPosition.CenterScreen;
+                    department.Tag = menuItem.Tag.ToString();
+                    department.Show();
+                    break;
+
+                case "113":
+
+                    FormBSCostType costType = new FormBSCostType();
+                    costType.MdiParent = form;
+                    costType.StartPosition = FormStartPosition.CenterScreen;
+                    costType.Tag = menuItem.Tag.ToString();
+                    costType.Show();
+                    break;
+
+                case "121":
+
+                    FormBSInven inven = new FormBSInven();
+                    inven.MdiParent = form;
+                    inven.StartPosition = FormStartPosition.CenterScreen;
+                    inven.Tag = menuItem.Tag.ToString();
+                    inven.Show();
+                    break;
+
+                case "122":
+
+                    FormBSSupplier supplier = new FormBSSupplier();
+                    supplier.MdiParent = form;
+                    supplier.StartPosition = FormStartPosition.CenterScreen;
+                    supplier.Tag = menuItem.Tag.ToString();
+                    supplier.Show();
+                    break;
+                case "123":
+
+                    FormBSCustomer customer = new FormBSCustomer();
+                    customer.MdiParent = form;
+                    customer.StartPosition = FormStartPosition.CenterScreen;
+                    customer.Tag = menuItem.Tag.ToString();
+                    customer.Show();
+                    break;
+
+                case "124":
+
+                    FormBSCost cost = new FormBSCost();
+                    cost.MdiParent = form;
+                    cost.StartPosition = FormStartPosition.CenterScreen;
+                    cost.Tag = menuItem.Tag.ToString();
+                    cost.Show();
+                    break;
+
+                case "125":
+
+                    FormBSStore store = new FormBSStore();
+                    store.MdiParent = form;
+                    store.StartPosition = FormStartPosition.CenterScreen;
+                    store.Tag = menuItem.Tag.ToString();
+                    store.Show();
+                    break;
+
+                case "126":
+
+                    FormBSEmployee employee = new FormBSEmployee();
+                    employee.MdiParent = form;
+                    employee.StartPosition = FormStartPosition.CenterScreen;
+                    employee.Tag = menuItem.Tag.ToString();
+                    employee.Show();
+                    break;
+
+                case "130":
+
+                    FormBSAccount account = new FormBSAccount();
+                    account.MdiParent = form;
+                    account.StartPosition = FormStartPosition.CenterScreen;
+                    account.Tag = menuItem.Tag.ToString();
+                    account.Show();
+                    break;
+
+                case "140":
+
+                    FormBSBom bom = new FormBSBom();
+                    bom.MdiParent = form;
+                    bom.StartPosition = FormStartPosition.CenterScreen;
+                    bom.Tag = menuItem.Tag.ToString();
+                    bom.Show();
+                    break;
+
+                case "150":
+
+                    FormInitStock initStock = new FormInitStock();
+                    initStock.MdiParent = form;
+                    initStock.StartPosition = FormStartPosition.CenterScreen;
+                    initStock.Tag = menuItem.Tag.ToString();
+                    initStock.Show();
+                    break;
+
 
                 case "910":
 
