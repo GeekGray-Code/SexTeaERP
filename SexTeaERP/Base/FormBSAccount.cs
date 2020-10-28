@@ -47,7 +47,7 @@ namespace SexTeaERP.Base
         /// </summary>
         private void ClearControls()
         {
-            //窗体控件状态切换
+            //账户信息栏清空
             this.txtAccountCode.Text = "";
             this.txtAccountName.Text = "";
             this.txtBankAccount.Text = "";
@@ -57,12 +57,13 @@ namespace SexTeaERP.Base
 
         private void BindToolStripComboBox()
         {
+            //查询条件添加item
             this.cbxCondition.Items.Add("帐户名称");
             this.cbxCondition.Items.Add("银行账号");
         }
 
         /// <summary>
-        /// 设置控件的显示值
+        /// 使用DataGridView的数据设置控件的显示值
         /// </summary>
         private void FillControls()
         {

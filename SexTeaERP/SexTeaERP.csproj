@@ -97,67 +97,99 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Base\FormBSAccount.cs" />
+    <Compile Include="Base\FormBSAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Base\FormBSAccount.Designer.cs">
       <DependentUpon>FormBSAccount.cs</DependentUpon>
     </Compile>
-    <Compile Include="Base\FormBSBom.cs" />
+    <Compile Include="Base\FormBSBom.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Base\FormBSBom.Designer.cs">
       <DependentUpon>FormBSBom.cs</DependentUpon>
     </Compile>
-    <Compile Include="Base\FormBSBomInput.cs" />
+    <Compile Include="Base\FormBSBomInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Base\FormBSBomInput.Designer.cs">
       <DependentUpon>FormBSBomInput.cs</DependentUpon>
     </Compile>
-    <Compile Include="Base\FormBSCost.cs" />
+    <Compile Include="Base\FormBSCost.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Base\FormBSCost.Designer.cs">
       <DependentUpon>FormBSCost.cs</DependentUpon>
     </Compile>
-    <Compile Include="Base\FormBSCostType.cs" />
+    <Compile Include="Base\FormBSCostType.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Base\FormBSCostType.Designer.cs">
       <DependentUpon>FormBSCostType.cs</DependentUpon>
     </Compile>
-    <Compile Include="Base\FormBSCostTypeInput.cs" />
+    <Compile Include="Base\FormBSCostTypeInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Base\FormBSCostTypeInput.Designer.cs">
       <DependentUpon>FormBSCostTypeInput.cs</DependentUpon>
     </Compile>
-    <Compile Include="Base\FormBSCustomer.cs" />
+    <Compile Include="Base\FormBSCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Base\FormBSCustomer.Designer.cs">
       <DependentUpon>FormBSCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Base\FormBSDepartment.cs" />
+    <Compile Include="Base\FormBSDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Base\FormBSDepartment.Designer.cs">
       <DependentUpon>FormBSDepartment.cs</DependentUpon>
     </Compile>
-    <Compile Include="Base\FormBSDepartmentInput.cs" />
+    <Compile Include="Base\FormBSDepartmentInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Base\FormBSDepartmentInput.Designer.cs">
       <DependentUpon>FormBSDepartmentInput.cs</DependentUpon>
     </Compile>
-    <Compile Include="Base\FormBSEmployee.cs" />
+    <Compile Include="Base\FormBSEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Base\FormBSEmployee.Designer.cs">
       <DependentUpon>FormBSEmployee.cs</DependentUpon>
     </Compile>
-    <Compile Include="Base\FormBSInven.cs" />
+    <Compile Include="Base\FormBSInven.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Base\FormBSInven.Designer.cs">
       <DependentUpon>FormBSInven.cs</DependentUpon>
     </Compile>
-    <Compile Include="Base\FormBSInvenType.cs" />
+    <Compile Include="Base\FormBSInvenType.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Base\FormBSInvenType.Designer.cs">
       <DependentUpon>FormBSInvenType.cs</DependentUpon>
     </Compile>
-    <Compile Include="Base\FormBSInvenTypeInput.cs" />
+    <Compile Include="Base\FormBSInvenTypeInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Base\FormBSInvenTypeInput.Designer.cs">
       <DependentUpon>FormBSInvenTypeInput.cs</DependentUpon>
     </Compile>
-    <Compile Include="Base\FormBSStore.cs" />
+    <Compile Include="Base\FormBSStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Base\FormBSStore.Designer.cs">
       <DependentUpon>FormBSStore.cs</DependentUpon>
     </Compile>
-    <Compile Include="Base\FormBSSupplier.cs" />
+    <Compile Include="Base\FormBSSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Base\FormBSSupplier.Designer.cs">
       <DependentUpon>FormBSSupplier.cs</DependentUpon>
     </Compile>
-    <Compile Include="Base\FormInitStock.cs" />
+    <Compile Include="Base\FormInitStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Base\FormInitStock.Designer.cs">
       <DependentUpon>FormInitStock.cs</DependentUpon>
     </Compile>
