@@ -12,6 +12,7 @@ using CrystalDecisions.CrystalReports.Engine; //ReportDocument
 using SexTeaERP.SystemManagement;
 using SexTeaERP.DataClass;
 using SexTeaERP.Base;
+using SexTeaERP.Purchase;
 
 namespace SexTeaERP.ComClass
 {
@@ -658,6 +659,34 @@ namespace SexTeaERP.ComClass
                     initStock.StartPosition = FormStartPosition.CenterScreen;
                     initStock.Tag = menuItem.Tag.ToString();
                     initStock.Show();
+                    break;
+
+                case "210":
+
+                    FormPUOrder puOrder = new FormPUOrder();
+                    puOrder.MdiParent = form;
+                    puOrder.StartPosition = FormStartPosition.CenterScreen;
+                    puOrder.Tag = menuItem.Tag.ToString();
+                    puOrder.Show();
+                    break;
+
+
+                case "220":
+
+                    FormPUInStore puInStore = new FormPUInStore();
+                    puInStore.MdiParent = form;
+                    puInStore.StartPosition = FormStartPosition.CenterScreen;
+                    puInStore.Tag = menuItem.Tag.ToString();
+                    puInStore.Show();
+                    break;
+
+                case "230":
+
+                    FormPUPay formPUPay = new FormPUPay();
+                    formPUPay.MdiParent = form;
+                    formPUPay.StartPosition = FormStartPosition.CenterScreen;
+                    formPUPay.Tag = menuItem.Tag.ToString();
+                    formPUPay.Show();
                     break;
 
 

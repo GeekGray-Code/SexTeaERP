@@ -282,6 +282,21 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Purchase\FormBrowsePUInStore.resx">
+      <DependentUpon>FormBrowsePUInStore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase\FormBrowsePUOrder.resx">
+      <DependentUpon>FormBrowsePUOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase\FormPUInStore.resx">
+      <DependentUpon>FormPUInStore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase\FormPUOrder.resx">
+      <DependentUpon>FormPUOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase\FormPUPay.resx">
+      <DependentUpon>FormPUPay.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SystemManagement\FormAssignRight.resx">
       <DependentUpon>FormAssignRight.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -308,6 +323,36 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Purchase\FormBrowsePUInStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase\FormBrowsePUInStore.Designer.cs">
+      <DependentUpon>FormBrowsePUInStore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase\FormBrowsePUOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase\FormBrowsePUOrder.Designer.cs">
+      <DependentUpon>FormBrowsePUOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase\FormPUInStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase\FormPUInStore.Designer.cs">
+      <DependentUpon>FormPUInStore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase\FormPUOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase\FormPUOrder.Designer.cs">
+      <DependentUpon>FormPUOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase\FormPUPay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase\FormPUPay.Designer.cs">
+      <DependentUpon>FormPUPay.cs</DependentUpon>
     </Compile>
     <Compile Include="SystemManagement\FormAssignRight.cs">
       <SubType>Form</SubType>
