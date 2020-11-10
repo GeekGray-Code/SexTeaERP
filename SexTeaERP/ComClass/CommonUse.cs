@@ -13,6 +13,7 @@ using SexTeaERP.SystemManagement;
 using SexTeaERP.DataClass;
 using SexTeaERP.Base;
 using SexTeaERP.Purchase;
+using SexTeaERP.Customer;
 
 namespace SexTeaERP.ComClass
 {
@@ -687,6 +688,34 @@ namespace SexTeaERP.ComClass
                     formPUPay.StartPosition = FormStartPosition.CenterScreen;
                     formPUPay.Tag = menuItem.Tag.ToString();
                     formPUPay.Show();
+                    break;
+
+
+                case "610":
+
+                    FormCustomerCourse formCustomerCourse = new FormCustomerCourse();
+                    formCustomerCourse.MdiParent = form;
+                    formCustomerCourse.StartPosition = FormStartPosition.CenterScreen;
+                    formCustomerCourse.Tag = menuItem.Tag.ToString();
+                    formCustomerCourse.Show();
+                    break;
+
+                case "620":
+
+                    FormBaseType formBaseType = new FormBaseType();
+                    formBaseType.MdiParent = form;
+                    formBaseType.StartPosition = FormStartPosition.CenterScreen;
+                    formBaseType.Tag = menuItem.Tag.ToString();
+                    formBaseType.Show();
+                    break;
+
+                case "630":
+
+                    FormCustomerAnalyse formCustomerAnalyse = new FormCustomerAnalyse();
+                    formCustomerAnalyse.MdiParent = form;
+                    formCustomerAnalyse.StartPosition = FormStartPosition.CenterScreen;
+                    formCustomerAnalyse.Tag = menuItem.Tag.ToString();
+                    formCustomerAnalyse.Show();
                     break;
 
 

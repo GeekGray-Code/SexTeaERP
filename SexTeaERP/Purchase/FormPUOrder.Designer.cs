@@ -91,6 +91,7 @@
             // 
             // toolStrip1
             // 
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolSave,
             this.toolCancel,
@@ -108,8 +109,9 @@
             this.toolExit});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
             this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.toolStrip1.Size = new System.Drawing.Size(687, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1374, 50);
             this.toolStrip1.TabIndex = 7;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -120,7 +122,7 @@
             this.toolSave.Image = ((System.Drawing.Image)(resources.GetObject("toolSave.Image")));
             this.toolSave.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolSave.Name = "toolSave";
-            this.toolSave.Size = new System.Drawing.Size(49, 22);
+            this.toolSave.Size = new System.Drawing.Size(98, 44);
             this.toolSave.Tag = "1";
             this.toolSave.Text = "保存";
             this.toolSave.Click += new System.EventHandler(this.toolSave_Click);
@@ -131,7 +133,7 @@
             this.toolCancel.Image = ((System.Drawing.Image)(resources.GetObject("toolCancel.Image")));
             this.toolCancel.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolCancel.Name = "toolCancel";
-            this.toolCancel.Size = new System.Drawing.Size(49, 22);
+            this.toolCancel.Size = new System.Drawing.Size(98, 44);
             this.toolCancel.Tag = "2";
             this.toolCancel.Text = "取消";
             this.toolCancel.Click += new System.EventHandler(this.toolCancel_Click);
@@ -142,7 +144,7 @@
             this.toolAdd.Image = ((System.Drawing.Image)(resources.GetObject("toolAdd.Image")));
             this.toolAdd.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolAdd.Name = "toolAdd";
-            this.toolAdd.Size = new System.Drawing.Size(49, 22);
+            this.toolAdd.Size = new System.Drawing.Size(98, 44);
             this.toolAdd.Tag = "3";
             this.toolAdd.Text = "添加";
             this.toolAdd.Click += new System.EventHandler(this.toolAdd_Click);
@@ -153,7 +155,7 @@
             this.toolAmend.Image = ((System.Drawing.Image)(resources.GetObject("toolAmend.Image")));
             this.toolAmend.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolAmend.Name = "toolAmend";
-            this.toolAmend.Size = new System.Drawing.Size(49, 22);
+            this.toolAmend.Size = new System.Drawing.Size(98, 44);
             this.toolAmend.Tag = "4";
             this.toolAmend.Text = "修改";
             this.toolAmend.Click += new System.EventHandler(this.toolAmend_Click);
@@ -164,7 +166,7 @@
             this.toolDelete.Image = ((System.Drawing.Image)(resources.GetObject("toolDelete.Image")));
             this.toolDelete.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolDelete.Name = "toolDelete";
-            this.toolDelete.Size = new System.Drawing.Size(49, 22);
+            this.toolDelete.Size = new System.Drawing.Size(98, 44);
             this.toolDelete.Tag = "5";
             this.toolDelete.Text = "删除";
             this.toolDelete.Click += new System.EventHandler(this.toolDelete_Click);
@@ -175,7 +177,7 @@
             this.toolCheck.Image = ((System.Drawing.Image)(resources.GetObject("toolCheck.Image")));
             this.toolCheck.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolCheck.Name = "toolCheck";
-            this.toolCheck.Size = new System.Drawing.Size(49, 22);
+            this.toolCheck.Size = new System.Drawing.Size(98, 44);
             this.toolCheck.Text = "审核";
             this.toolCheck.Click += new System.EventHandler(this.toolCheck_Click);
             // 
@@ -185,43 +187,44 @@
             this.toolUnCheck.Image = ((System.Drawing.Image)(resources.GetObject("toolUnCheck.Image")));
             this.toolUnCheck.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolUnCheck.Name = "toolUnCheck";
-            this.toolUnCheck.Size = new System.Drawing.Size(49, 22);
+            this.toolUnCheck.Size = new System.Drawing.Size(98, 44);
             this.toolUnCheck.Text = "弃审";
             this.toolUnCheck.Click += new System.EventHandler(this.toolUnCheck_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 50);
             // 
             // labCondation
             // 
             this.labCondation.Name = "labCondation";
-            this.labCondation.Size = new System.Drawing.Size(59, 22);
+            this.labCondation.Size = new System.Drawing.Size(116, 44);
             this.labCondation.Text = "查询条件:";
             // 
             // cbxCondition
             // 
             this.cbxCondition.DropDownWidth = 90;
             this.cbxCondition.Name = "cbxCondition";
-            this.cbxCondition.Size = new System.Drawing.Size(75, 25);
+            this.cbxCondition.Size = new System.Drawing.Size(75, 50);
             // 
             // txtKeyWord
             // 
+            this.txtKeyWord.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.txtKeyWord.Name = "txtKeyWord";
-            this.txtKeyWord.Size = new System.Drawing.Size(80, 25);
+            this.txtKeyWord.Size = new System.Drawing.Size(80, 50);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 50);
             // 
             // txtOK
             // 
             this.txtOK.Image = ((System.Drawing.Image)(resources.GetObject("txtOK.Image")));
             this.txtOK.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.txtOK.Name = "txtOK";
-            this.txtOK.Size = new System.Drawing.Size(49, 22);
+            this.txtOK.Size = new System.Drawing.Size(98, 44);
             this.txtOK.Tag = "6";
             this.txtOK.Text = "查找";
             this.txtOK.Click += new System.EventHandler(this.txtOK_Click);
@@ -231,7 +234,7 @@
             this.toolExit.Image = ((System.Drawing.Image)(resources.GetObject("toolExit.Image")));
             this.toolExit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolExit.Name = "toolExit";
-            this.toolExit.Size = new System.Drawing.Size(49, 22);
+            this.toolExit.Size = new System.Drawing.Size(98, 44);
             this.toolExit.Tag = "7";
             this.toolExit.Text = "退出";
             this.toolExit.Click += new System.EventHandler(this.toolExit_Click);
@@ -239,9 +242,11 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.dgvPUOrderInfo);
-            this.groupBox2.Location = new System.Drawing.Point(8, 190);
+            this.groupBox2.Location = new System.Drawing.Point(16, 380);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(671, 217);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox2.Size = new System.Drawing.Size(1342, 434);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "订单记录";
@@ -263,10 +268,12 @@
             this.Column11,
             this.Column12,
             this.Column1});
-            this.dgvPUOrderInfo.Location = new System.Drawing.Point(8, 15);
+            this.dgvPUOrderInfo.Location = new System.Drawing.Point(16, 30);
+            this.dgvPUOrderInfo.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.dgvPUOrderInfo.Name = "dgvPUOrderInfo";
+            this.dgvPUOrderInfo.RowHeadersWidth = 82;
             this.dgvPUOrderInfo.RowTemplate.Height = 23;
-            this.dgvPUOrderInfo.Size = new System.Drawing.Size(655, 194);
+            this.dgvPUOrderInfo.Size = new System.Drawing.Size(1310, 388);
             this.dgvPUOrderInfo.TabIndex = 0;
             this.dgvPUOrderInfo.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPUOrderInfo_CellClick);
             this.dgvPUOrderInfo.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dgvPUOrderInfo_DataError);
@@ -275,86 +282,110 @@
             // 
             this.Column2.DataPropertyName = "PUOrderCode";
             this.Column2.HeaderText = "单据编号";
+            this.Column2.MinimumWidth = 10;
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
+            this.Column2.Width = 200;
             // 
             // Column3
             // 
             this.Column3.DataPropertyName = "PUOrderDate";
             this.Column3.HeaderText = "单据日期";
+            this.Column3.MinimumWidth = 10;
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
+            this.Column3.Width = 200;
             // 
             // Column4
             // 
             this.Column4.DataPropertyName = "OperatorCode";
             this.Column4.HeaderText = "操作员";
+            this.Column4.MinimumWidth = 10;
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
+            this.Column4.Width = 200;
             // 
             // Column5
             // 
             this.Column5.DataPropertyName = "SupplierCode";
             this.Column5.HeaderText = "供 应 商";
+            this.Column5.MinimumWidth = 10;
             this.Column5.Name = "Column5";
             this.Column5.ReadOnly = true;
+            this.Column5.Width = 200;
             // 
             // Column6
             // 
             this.Column6.DataPropertyName = "StoreCode";
             this.Column6.HeaderText = "订货仓库";
+            this.Column6.MinimumWidth = 10;
             this.Column6.Name = "Column6";
             this.Column6.ReadOnly = true;
+            this.Column6.Width = 200;
             // 
             // Column7
             // 
             this.Column7.DataPropertyName = "InvenCode";
             this.Column7.HeaderText = "存货名称";
+            this.Column7.MinimumWidth = 10;
             this.Column7.Name = "Column7";
             this.Column7.ReadOnly = true;
+            this.Column7.Width = 200;
             // 
             // Column8
             // 
             this.Column8.DataPropertyName = "UnitPrice";
             this.Column8.HeaderText = "采购单价";
+            this.Column8.MinimumWidth = 10;
             this.Column8.Name = "Column8";
             this.Column8.ReadOnly = true;
+            this.Column8.Width = 200;
             // 
             // Column9
             // 
             this.Column9.DataPropertyName = "Quantity";
             this.Column9.HeaderText = "采购数量";
+            this.Column9.MinimumWidth = 10;
             this.Column9.Name = "Column9";
             this.Column9.ReadOnly = true;
+            this.Column9.Width = 200;
             // 
             // Column10
             // 
             this.Column10.DataPropertyName = "PUMoney";
             this.Column10.HeaderText = "采购金额";
+            this.Column10.MinimumWidth = 10;
             this.Column10.Name = "Column10";
             this.Column10.ReadOnly = true;
+            this.Column10.Width = 200;
             // 
             // Column11
             // 
             this.Column11.DataPropertyName = "RecInvenDate";
             this.Column11.HeaderText = "收货日期";
+            this.Column11.MinimumWidth = 10;
             this.Column11.Name = "Column11";
             this.Column11.ReadOnly = true;
+            this.Column11.Width = 200;
             // 
             // Column12
             // 
             this.Column12.DataPropertyName = "EmployeeCode";
             this.Column12.HeaderText = "采 购 员";
+            this.Column12.MinimumWidth = 10;
             this.Column12.Name = "Column12";
             this.Column12.ReadOnly = true;
+            this.Column12.Width = 200;
             // 
             // Column1
             // 
             this.Column1.DataPropertyName = "IsFlag";
             this.Column1.HeaderText = "审核状态";
+            this.Column1.MinimumWidth = 10;
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
             this.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column1.Width = 200;
             // 
             // groupBox1
             // 
@@ -382,9 +413,11 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.txtPUOrderCode);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(8, 27);
+            this.groupBox1.Location = new System.Drawing.Point(16, 54);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(671, 160);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox1.Size = new System.Drawing.Size(1342, 320);
             this.groupBox1.TabIndex = 66;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "订单信息";
@@ -393,72 +426,80 @@
             // 
             this.cbxIsFlag.Enabled = false;
             this.cbxIsFlag.FormattingEnabled = true;
-            this.cbxIsFlag.Location = new System.Drawing.Point(530, 132);
+            this.cbxIsFlag.Location = new System.Drawing.Point(1060, 264);
+            this.cbxIsFlag.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.cbxIsFlag.Name = "cbxIsFlag";
-            this.cbxIsFlag.Size = new System.Drawing.Size(126, 20);
+            this.cbxIsFlag.Size = new System.Drawing.Size(248, 32);
             this.cbxIsFlag.TabIndex = 104;
             // 
             // cbxEmployeeCode
             // 
             this.cbxEmployeeCode.Enabled = false;
             this.cbxEmployeeCode.FormattingEnabled = true;
-            this.cbxEmployeeCode.Location = new System.Drawing.Point(304, 132);
+            this.cbxEmployeeCode.Location = new System.Drawing.Point(608, 264);
+            this.cbxEmployeeCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.cbxEmployeeCode.Name = "cbxEmployeeCode";
-            this.cbxEmployeeCode.Size = new System.Drawing.Size(126, 20);
+            this.cbxEmployeeCode.Size = new System.Drawing.Size(248, 32);
             this.cbxEmployeeCode.TabIndex = 103;
             // 
             // dtpRecInvenDate
             // 
             this.dtpRecInvenDate.Enabled = false;
-            this.dtpRecInvenDate.Location = new System.Drawing.Point(72, 132);
+            this.dtpRecInvenDate.Location = new System.Drawing.Point(144, 264);
+            this.dtpRecInvenDate.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.dtpRecInvenDate.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
             this.dtpRecInvenDate.Name = "dtpRecInvenDate";
-            this.dtpRecInvenDate.Size = new System.Drawing.Size(126, 21);
+            this.dtpRecInvenDate.Size = new System.Drawing.Size(248, 35);
             this.dtpRecInvenDate.TabIndex = 102;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(473, 136);
+            this.label12.Location = new System.Drawing.Point(946, 272);
+            this.label12.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(53, 12);
+            this.label12.Size = new System.Drawing.Size(106, 24);
             this.label12.TabIndex = 101;
             this.label12.Text = "审核状态";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(245, 136);
+            this.label11.Location = new System.Drawing.Point(490, 272);
+            this.label11.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(53, 12);
+            this.label11.Size = new System.Drawing.Size(106, 24);
             this.label11.TabIndex = 100;
             this.label11.Text = "采 购 员";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(16, 136);
+            this.label10.Location = new System.Drawing.Point(32, 272);
+            this.label10.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(53, 12);
+            this.label10.Size = new System.Drawing.Size(106, 24);
             this.label10.TabIndex = 99;
             this.label10.Text = "收货日期";
             // 
             // txtPUMoney
             // 
-            this.txtPUMoney.Location = new System.Drawing.Point(530, 91);
+            this.txtPUMoney.Location = new System.Drawing.Point(1060, 182);
+            this.txtPUMoney.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtPUMoney.MaxLength = 9;
             this.txtPUMoney.Name = "txtPUMoney";
             this.txtPUMoney.ReadOnly = true;
-            this.txtPUMoney.Size = new System.Drawing.Size(126, 21);
+            this.txtPUMoney.Size = new System.Drawing.Size(248, 35);
             this.txtPUMoney.TabIndex = 98;
             // 
             // txtQuantity
             // 
-            this.txtQuantity.Location = new System.Drawing.Point(304, 91);
+            this.txtQuantity.Location = new System.Drawing.Point(608, 182);
+            this.txtQuantity.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtQuantity.MaxLength = 9;
             this.txtQuantity.Name = "txtQuantity";
             this.txtQuantity.ReadOnly = true;
-            this.txtQuantity.Size = new System.Drawing.Size(126, 21);
+            this.txtQuantity.Size = new System.Drawing.Size(248, 35);
             this.txtQuantity.TabIndex = 97;
             this.txtQuantity.Text = "1";
             this.txtQuantity.TextChanged += new System.EventHandler(this.txtUnitPrice_TextChanged);
@@ -466,11 +507,12 @@
             // 
             // txtUnitPrice
             // 
-            this.txtUnitPrice.Location = new System.Drawing.Point(72, 91);
+            this.txtUnitPrice.Location = new System.Drawing.Point(144, 182);
+            this.txtUnitPrice.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtUnitPrice.MaxLength = 9;
             this.txtUnitPrice.Name = "txtUnitPrice";
             this.txtUnitPrice.ReadOnly = true;
-            this.txtUnitPrice.Size = new System.Drawing.Size(126, 21);
+            this.txtUnitPrice.Size = new System.Drawing.Size(248, 35);
             this.txtUnitPrice.TabIndex = 96;
             this.txtUnitPrice.TextChanged += new System.EventHandler(this.txtUnitPrice_TextChanged);
             this.txtUnitPrice.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUnitPrice_KeyPress);
@@ -478,9 +520,10 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(473, 95);
+            this.label8.Location = new System.Drawing.Point(946, 190);
+            this.label8.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(53, 12);
+            this.label8.Size = new System.Drawing.Size(106, 24);
             this.label8.TabIndex = 95;
             this.label8.Text = "采购金额";
             // 
@@ -488,17 +531,19 @@
             // 
             this.cbxInvenCode.Enabled = false;
             this.cbxInvenCode.FormattingEnabled = true;
-            this.cbxInvenCode.Location = new System.Drawing.Point(530, 52);
+            this.cbxInvenCode.Location = new System.Drawing.Point(1060, 104);
+            this.cbxInvenCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.cbxInvenCode.Name = "cbxInvenCode";
-            this.cbxInvenCode.Size = new System.Drawing.Size(126, 20);
+            this.cbxInvenCode.Size = new System.Drawing.Size(248, 32);
             this.cbxInvenCode.TabIndex = 94;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(473, 55);
+            this.label5.Location = new System.Drawing.Point(946, 110);
+            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(53, 12);
+            this.label5.Size = new System.Drawing.Size(106, 24);
             this.label5.TabIndex = 93;
             this.label5.Text = "存货名称";
             // 
@@ -506,35 +551,39 @@
             // 
             this.cbxSupplierCode.Enabled = false;
             this.cbxSupplierCode.FormattingEnabled = true;
-            this.cbxSupplierCode.Location = new System.Drawing.Point(72, 52);
+            this.cbxSupplierCode.Location = new System.Drawing.Point(144, 104);
+            this.cbxSupplierCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.cbxSupplierCode.Name = "cbxSupplierCode";
-            this.cbxSupplierCode.Size = new System.Drawing.Size(126, 20);
+            this.cbxSupplierCode.Size = new System.Drawing.Size(248, 32);
             this.cbxSupplierCode.TabIndex = 92;
             // 
             // cbxStoreCode
             // 
             this.cbxStoreCode.Enabled = false;
             this.cbxStoreCode.FormattingEnabled = true;
-            this.cbxStoreCode.Location = new System.Drawing.Point(304, 52);
+            this.cbxStoreCode.Location = new System.Drawing.Point(608, 104);
+            this.cbxStoreCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.cbxStoreCode.Name = "cbxStoreCode";
-            this.cbxStoreCode.Size = new System.Drawing.Size(126, 20);
+            this.cbxStoreCode.Size = new System.Drawing.Size(248, 32);
             this.cbxStoreCode.TabIndex = 91;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(245, 95);
+            this.label6.Location = new System.Drawing.Point(490, 190);
+            this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 12);
+            this.label6.Size = new System.Drawing.Size(106, 24);
             this.label6.TabIndex = 90;
             this.label6.Text = "采购数量";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 95);
+            this.label2.Location = new System.Drawing.Point(32, 190);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 12);
+            this.label2.Size = new System.Drawing.Size(106, 24);
             this.label2.TabIndex = 89;
             this.label2.Text = "采购单价";
             // 
@@ -542,83 +591,92 @@
             // 
             this.cbxOperatorCode.Enabled = false;
             this.cbxOperatorCode.FormattingEnabled = true;
-            this.cbxOperatorCode.Location = new System.Drawing.Point(530, 13);
+            this.cbxOperatorCode.Location = new System.Drawing.Point(1060, 26);
+            this.cbxOperatorCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.cbxOperatorCode.Name = "cbxOperatorCode";
-            this.cbxOperatorCode.Size = new System.Drawing.Size(126, 20);
+            this.cbxOperatorCode.Size = new System.Drawing.Size(248, 32);
             this.cbxOperatorCode.TabIndex = 82;
             // 
             // dtpPUOrderDate
             // 
             this.dtpPUOrderDate.Enabled = false;
-            this.dtpPUOrderDate.Location = new System.Drawing.Point(304, 13);
+            this.dtpPUOrderDate.Location = new System.Drawing.Point(608, 26);
+            this.dtpPUOrderDate.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.dtpPUOrderDate.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
             this.dtpPUOrderDate.Name = "dtpPUOrderDate";
-            this.dtpPUOrderDate.Size = new System.Drawing.Size(126, 21);
+            this.dtpPUOrderDate.Size = new System.Drawing.Size(248, 35);
             this.dtpPUOrderDate.TabIndex = 87;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(473, 17);
+            this.label3.Location = new System.Drawing.Point(946, 34);
+            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 12);
+            this.label3.Size = new System.Drawing.Size(106, 24);
             this.label3.TabIndex = 70;
             this.label3.Text = "操 作 员";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(245, 55);
+            this.label7.Location = new System.Drawing.Point(490, 110);
+            this.label7.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 12);
+            this.label7.Size = new System.Drawing.Size(106, 24);
             this.label7.TabIndex = 74;
             this.label7.Text = "订货仓库";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(245, 17);
+            this.label9.Location = new System.Drawing.Point(490, 34);
+            this.label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(53, 12);
+            this.label9.Size = new System.Drawing.Size(106, 24);
             this.label9.TabIndex = 77;
             this.label9.Text = "单据日期";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(16, 55);
+            this.label4.Location = new System.Drawing.Point(32, 110);
+            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 12);
+            this.label4.Size = new System.Drawing.Size(106, 24);
             this.label4.TabIndex = 71;
             this.label4.Text = "供 应 商";
             // 
             // txtPUOrderCode
             // 
-            this.txtPUOrderCode.Location = new System.Drawing.Point(72, 13);
+            this.txtPUOrderCode.Location = new System.Drawing.Point(144, 26);
+            this.txtPUOrderCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtPUOrderCode.MaxLength = 10;
             this.txtPUOrderCode.Name = "txtPUOrderCode";
             this.txtPUOrderCode.ReadOnly = true;
-            this.txtPUOrderCode.Size = new System.Drawing.Size(126, 21);
+            this.txtPUOrderCode.Size = new System.Drawing.Size(248, 35);
             this.txtPUOrderCode.TabIndex = 75;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 17);
+            this.label1.Location = new System.Drawing.Point(32, 34);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 12);
+            this.label1.Size = new System.Drawing.Size(106, 24);
             this.label1.TabIndex = 69;
             this.label1.Text = "单据编号";
             // 
             // FormPUOrder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(687, 416);
+            this.ClientSize = new System.Drawing.Size(1374, 832);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.toolStrip1);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.MaximizeBox = false;
             this.Name = "FormPUOrder";
             this.Text = "采购订单";

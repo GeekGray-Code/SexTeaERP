@@ -197,6 +197,48 @@
     <Compile Include="ComClass\CommonUse.cs" />
     <Compile Include="ComClass\OperatorFile.cs" />
     <Compile Include="ComClass\PropertyClass.cs" />
+    <Compile Include="Customer\FormBaseType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\FormBaseType.Designer.cs">
+      <DependentUpon>FormBaseType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\FormBaseTypeInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\FormBaseTypeInput.Designer.cs">
+      <DependentUpon>FormBaseTypeInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\FormCUAfterService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\FormCUAfterService.Designer.cs">
+      <DependentUpon>FormCUAfterService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\FormCURelRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\FormCURelRecord.Designer.cs">
+      <DependentUpon>FormCURelRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\FormCUSellChance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\FormCUSellChance.Designer.cs">
+      <DependentUpon>FormCUSellChance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\FormCustomerAnalyse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\FormCustomerAnalyse.Designer.cs">
+      <DependentUpon>FormCustomerAnalyse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\FormCustomerCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\FormCustomerCourse.Designer.cs">
+      <DependentUpon>FormCustomerCourse.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataClass\DataBase.cs" />
     <Compile Include="AppMain.cs">
       <SubType>Form</SubType>
@@ -269,6 +311,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Base\FormInitStock.resx">
       <DependentUpon>FormInitStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\FormBaseType.resx">
+      <DependentUpon>FormBaseType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\FormBaseTypeInput.resx">
+      <DependentUpon>FormBaseTypeInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\FormCUAfterService.resx">
+      <DependentUpon>FormCUAfterService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\FormCURelRecord.resx">
+      <DependentUpon>FormCURelRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\FormCUSellChance.resx">
+      <DependentUpon>FormCUSellChance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\FormCustomerAnalyse.resx">
+      <DependentUpon>FormCustomerAnalyse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\FormCustomerCourse.resx">
+      <DependentUpon>FormCustomerCourse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

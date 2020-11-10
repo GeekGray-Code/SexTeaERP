@@ -81,6 +81,7 @@
             // 
             // toolStrip1
             // 
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolSave,
             this.toolCancel,
@@ -97,8 +98,9 @@
             this.toolExit});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
             this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.toolStrip1.Size = new System.Drawing.Size(687, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1374, 50);
             this.toolStrip1.TabIndex = 5;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -109,7 +111,7 @@
             this.toolSave.Image = ((System.Drawing.Image)(resources.GetObject("toolSave.Image")));
             this.toolSave.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolSave.Name = "toolSave";
-            this.toolSave.Size = new System.Drawing.Size(49, 22);
+            this.toolSave.Size = new System.Drawing.Size(98, 44);
             this.toolSave.Tag = "1";
             this.toolSave.Text = "保存";
             this.toolSave.Click += new System.EventHandler(this.toolSave_Click);
@@ -120,7 +122,7 @@
             this.toolCancel.Image = ((System.Drawing.Image)(resources.GetObject("toolCancel.Image")));
             this.toolCancel.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolCancel.Name = "toolCancel";
-            this.toolCancel.Size = new System.Drawing.Size(49, 22);
+            this.toolCancel.Size = new System.Drawing.Size(98, 44);
             this.toolCancel.Tag = "2";
             this.toolCancel.Text = "取消";
             this.toolCancel.Click += new System.EventHandler(this.toolCancel_Click);
@@ -131,7 +133,7 @@
             this.toolAdd.Image = ((System.Drawing.Image)(resources.GetObject("toolAdd.Image")));
             this.toolAdd.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolAdd.Name = "toolAdd";
-            this.toolAdd.Size = new System.Drawing.Size(49, 22);
+            this.toolAdd.Size = new System.Drawing.Size(98, 44);
             this.toolAdd.Tag = "3";
             this.toolAdd.Text = "添加";
             this.toolAdd.Click += new System.EventHandler(this.toolAdd_Click);
@@ -142,7 +144,7 @@
             this.toolAmend.Image = ((System.Drawing.Image)(resources.GetObject("toolAmend.Image")));
             this.toolAmend.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolAmend.Name = "toolAmend";
-            this.toolAmend.Size = new System.Drawing.Size(49, 22);
+            this.toolAmend.Size = new System.Drawing.Size(98, 44);
             this.toolAmend.Tag = "4";
             this.toolAmend.Text = "修改";
             this.toolAmend.Click += new System.EventHandler(this.toolAmend_Click);
@@ -153,7 +155,7 @@
             this.toolDelete.Image = ((System.Drawing.Image)(resources.GetObject("toolDelete.Image")));
             this.toolDelete.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolDelete.Name = "toolDelete";
-            this.toolDelete.Size = new System.Drawing.Size(49, 22);
+            this.toolDelete.Size = new System.Drawing.Size(98, 44);
             this.toolDelete.Tag = "5";
             this.toolDelete.Text = "删除";
             this.toolDelete.Click += new System.EventHandler(this.toolDelete_Click);
@@ -163,42 +165,43 @@
             this.toolreflush.Image = ((System.Drawing.Image)(resources.GetObject("toolreflush.Image")));
             this.toolreflush.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolreflush.Name = "toolreflush";
-            this.toolreflush.Size = new System.Drawing.Size(49, 22);
+            this.toolreflush.Size = new System.Drawing.Size(98, 44);
             this.toolreflush.Text = "刷新";
             this.toolreflush.Click += new System.EventHandler(this.toolreflush_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 50);
             // 
             // labCondation
             // 
             this.labCondation.Name = "labCondation";
-            this.labCondation.Size = new System.Drawing.Size(59, 22);
+            this.labCondation.Size = new System.Drawing.Size(116, 44);
             this.labCondation.Text = "查询条件:";
             // 
             // cbxCondition
             // 
             this.cbxCondition.Name = "cbxCondition";
-            this.cbxCondition.Size = new System.Drawing.Size(90, 25);
+            this.cbxCondition.Size = new System.Drawing.Size(90, 50);
             // 
             // txtKeyWord
             // 
+            this.txtKeyWord.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.txtKeyWord.Name = "txtKeyWord";
-            this.txtKeyWord.Size = new System.Drawing.Size(100, 25);
+            this.txtKeyWord.Size = new System.Drawing.Size(100, 50);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 50);
             // 
             // txtOK
             // 
             this.txtOK.Image = ((System.Drawing.Image)(resources.GetObject("txtOK.Image")));
             this.txtOK.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.txtOK.Name = "txtOK";
-            this.txtOK.Size = new System.Drawing.Size(49, 22);
+            this.txtOK.Size = new System.Drawing.Size(98, 44);
             this.txtOK.Tag = "6";
             this.txtOK.Text = "查找";
             this.txtOK.Click += new System.EventHandler(this.txtOK_Click);
@@ -208,7 +211,7 @@
             this.toolExit.Image = ((System.Drawing.Image)(resources.GetObject("toolExit.Image")));
             this.toolExit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolExit.Name = "toolExit";
-            this.toolExit.Size = new System.Drawing.Size(49, 22);
+            this.toolExit.Size = new System.Drawing.Size(98, 44);
             this.toolExit.Tag = "7";
             this.toolExit.Text = "退出";
             this.toolExit.Click += new System.EventHandler(this.toolExit_Click);
@@ -216,9 +219,11 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.dgvInvenInfo);
-            this.groupBox2.Location = new System.Drawing.Point(12, 183);
+            this.groupBox2.Location = new System.Drawing.Point(24, 366);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(663, 221);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox2.Size = new System.Drawing.Size(1326, 442);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "存货记录";
@@ -237,10 +242,12 @@
             this.Column7,
             this.Column8,
             this.Column9});
-            this.dgvInvenInfo.Location = new System.Drawing.Point(8, 15);
+            this.dgvInvenInfo.Location = new System.Drawing.Point(16, 30);
+            this.dgvInvenInfo.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.dgvInvenInfo.Name = "dgvInvenInfo";
+            this.dgvInvenInfo.RowHeadersWidth = 82;
             this.dgvInvenInfo.RowTemplate.Height = 23;
-            this.dgvInvenInfo.Size = new System.Drawing.Size(649, 200);
+            this.dgvInvenInfo.Size = new System.Drawing.Size(1298, 400);
             this.dgvInvenInfo.TabIndex = 0;
             this.dgvInvenInfo.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvInvenInfo_CellClick);
             // 
@@ -248,70 +255,88 @@
             // 
             this.Column1.DataPropertyName = "InvenCode";
             this.Column1.HeaderText = "存货编码";
+            this.Column1.MinimumWidth = 10;
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
+            this.Column1.Width = 200;
             // 
             // Column2
             // 
             this.Column2.DataPropertyName = "InvenName";
             this.Column2.HeaderText = "存货名称";
+            this.Column2.MinimumWidth = 10;
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
+            this.Column2.Width = 200;
             // 
             // Column5
             // 
             this.Column5.DataPropertyName = "InvenTypeCode";
             this.Column5.HeaderText = "存货分类";
+            this.Column5.MinimumWidth = 10;
             this.Column5.Name = "Column5";
             this.Column5.ReadOnly = true;
             this.Column5.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.Column5.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Column5.Width = 200;
             // 
             // Column3
             // 
             this.Column3.DataPropertyName = "SpecsModel";
             this.Column3.HeaderText = "规格型号";
+            this.Column3.MinimumWidth = 10;
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
             this.Column3.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column3.Width = 200;
             // 
             // Column4
             // 
             this.Column4.DataPropertyName = "MeaUnit";
             this.Column4.HeaderText = "计量单位";
+            this.Column4.MinimumWidth = 10;
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
             this.Column4.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column4.Width = 200;
             // 
             // Column6
             // 
             this.Column6.DataPropertyName = "SelPrice";
             this.Column6.HeaderText = "参考售价";
+            this.Column6.MinimumWidth = 10;
             this.Column6.Name = "Column6";
             this.Column6.ReadOnly = true;
             this.Column6.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column6.Width = 200;
             // 
             // Column7
             // 
             this.Column7.DataPropertyName = "PurPrice";
             this.Column7.HeaderText = "参考进价";
+            this.Column7.MinimumWidth = 10;
             this.Column7.Name = "Column7";
             this.Column7.ReadOnly = true;
             this.Column7.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column7.Width = 200;
             // 
             // Column8
             // 
             this.Column8.DataPropertyName = "SmallStockNum";
             this.Column8.HeaderText = "最低库存";
+            this.Column8.MinimumWidth = 10;
             this.Column8.Name = "Column8";
             this.Column8.ReadOnly = true;
             this.Column8.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column8.Width = 200;
             // 
             // Column9
             // 
             this.Column9.DataPropertyName = "BigStockNum";
             this.Column9.HeaderText = "最高库存";
+            this.Column9.MinimumWidth = 10;
             this.Column9.Name = "Column9";
+            this.Column9.Width = 200;
             // 
             // groupBox1
             // 
@@ -334,9 +359,11 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 28);
+            this.groupBox1.Location = new System.Drawing.Point(24, 56);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(663, 149);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox1.Size = new System.Drawing.Size(1326, 298);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "存货信息";
@@ -344,20 +371,22 @@
             // txtSmallStockNum
             // 
             this.txtSmallStockNum.AcceptsReturn = true;
-            this.txtSmallStockNum.Location = new System.Drawing.Point(301, 107);
+            this.txtSmallStockNum.Location = new System.Drawing.Point(602, 214);
+            this.txtSmallStockNum.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtSmallStockNum.MaxLength = 9;
             this.txtSmallStockNum.Name = "txtSmallStockNum";
             this.txtSmallStockNum.ReadOnly = true;
-            this.txtSmallStockNum.Size = new System.Drawing.Size(126, 21);
+            this.txtSmallStockNum.Size = new System.Drawing.Size(248, 35);
             this.txtSmallStockNum.TabIndex = 19;
             this.txtSmallStockNum.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSmallStockNum_KeyPress);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(243, 112);
+            this.label8.Location = new System.Drawing.Point(486, 224);
+            this.label8.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(53, 12);
+            this.label8.Size = new System.Drawing.Size(106, 24);
             this.label8.TabIndex = 18;
             this.label8.Text = "最低库存";
             // 
@@ -365,159 +394,176 @@
             // 
             this.cbxInvenTypeCode.Enabled = false;
             this.cbxInvenTypeCode.FormattingEnabled = true;
-            this.cbxInvenTypeCode.Location = new System.Drawing.Point(531, 27);
+            this.cbxInvenTypeCode.Location = new System.Drawing.Point(1062, 54);
+            this.cbxInvenTypeCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.cbxInvenTypeCode.Name = "cbxInvenTypeCode";
-            this.cbxInvenTypeCode.Size = new System.Drawing.Size(126, 20);
+            this.cbxInvenTypeCode.Size = new System.Drawing.Size(248, 32);
             this.cbxInvenTypeCode.TabIndex = 17;
             // 
             // txtBigStockNum
             // 
-            this.txtBigStockNum.Location = new System.Drawing.Point(531, 107);
+            this.txtBigStockNum.Location = new System.Drawing.Point(1062, 214);
+            this.txtBigStockNum.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtBigStockNum.MaxLength = 9;
             this.txtBigStockNum.Name = "txtBigStockNum";
             this.txtBigStockNum.ReadOnly = true;
-            this.txtBigStockNum.Size = new System.Drawing.Size(126, 21);
+            this.txtBigStockNum.Size = new System.Drawing.Size(248, 35);
             this.txtBigStockNum.TabIndex = 13;
             this.txtBigStockNum.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBigStockNum_KeyPress);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(472, 112);
+            this.label5.Location = new System.Drawing.Point(944, 224);
+            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(53, 12);
+            this.label5.Size = new System.Drawing.Size(106, 24);
             this.label5.TabIndex = 4;
             this.label5.Text = "最高库存";
             // 
             // txtPurPrice
             // 
             this.txtPurPrice.AcceptsReturn = true;
-            this.txtPurPrice.Location = new System.Drawing.Point(68, 107);
+            this.txtPurPrice.Location = new System.Drawing.Point(136, 214);
+            this.txtPurPrice.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtPurPrice.MaxLength = 9;
             this.txtPurPrice.Name = "txtPurPrice";
             this.txtPurPrice.ReadOnly = true;
-            this.txtPurPrice.Size = new System.Drawing.Size(126, 21);
+            this.txtPurPrice.Size = new System.Drawing.Size(248, 35);
             this.txtPurPrice.TabIndex = 16;
             this.txtPurPrice.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPurPrice_KeyPress);
             // 
             // txtSelPrice
             // 
-            this.txtSelPrice.Location = new System.Drawing.Point(531, 67);
+            this.txtSelPrice.Location = new System.Drawing.Point(1062, 134);
+            this.txtSelPrice.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtSelPrice.MaxLength = 9;
             this.txtSelPrice.Name = "txtSelPrice";
             this.txtSelPrice.ReadOnly = true;
-            this.txtSelPrice.Size = new System.Drawing.Size(126, 21);
+            this.txtSelPrice.Size = new System.Drawing.Size(248, 35);
             this.txtSelPrice.TabIndex = 15;
             this.txtSelPrice.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSelPrice_KeyPress);
             // 
             // txtSpecsModel
             // 
-            this.txtSpecsModel.Location = new System.Drawing.Point(68, 67);
+            this.txtSpecsModel.Location = new System.Drawing.Point(136, 134);
+            this.txtSpecsModel.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtSpecsModel.MaxLength = 30;
             this.txtSpecsModel.Name = "txtSpecsModel";
             this.txtSpecsModel.ReadOnly = true;
-            this.txtSpecsModel.Size = new System.Drawing.Size(126, 21);
+            this.txtSpecsModel.Size = new System.Drawing.Size(248, 35);
             this.txtSpecsModel.TabIndex = 14;
             // 
             // txtMeaUnit
             // 
-            this.txtMeaUnit.Location = new System.Drawing.Point(301, 67);
+            this.txtMeaUnit.Location = new System.Drawing.Point(602, 134);
+            this.txtMeaUnit.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtMeaUnit.MaxLength = 10;
             this.txtMeaUnit.Name = "txtMeaUnit";
             this.txtMeaUnit.ReadOnly = true;
-            this.txtMeaUnit.Size = new System.Drawing.Size(126, 21);
+            this.txtMeaUnit.Size = new System.Drawing.Size(248, 35);
             this.txtMeaUnit.TabIndex = 12;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(243, 72);
+            this.label9.Location = new System.Drawing.Point(486, 144);
+            this.label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(53, 12);
+            this.label9.Size = new System.Drawing.Size(106, 24);
             this.label9.TabIndex = 11;
             this.label9.Text = "计量单位";
             // 
             // txtInvenName
             // 
-            this.txtInvenName.Location = new System.Drawing.Point(301, 27);
+            this.txtInvenName.Location = new System.Drawing.Point(602, 54);
+            this.txtInvenName.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtInvenName.MaxLength = 40;
             this.txtInvenName.Name = "txtInvenName";
             this.txtInvenName.ReadOnly = true;
-            this.txtInvenName.Size = new System.Drawing.Size(126, 21);
+            this.txtInvenName.Size = new System.Drawing.Size(248, 35);
             this.txtInvenName.TabIndex = 9;
             // 
             // txtInvenCode
             // 
             this.txtInvenCode.AcceptsReturn = true;
-            this.txtInvenCode.Location = new System.Drawing.Point(68, 27);
+            this.txtInvenCode.Location = new System.Drawing.Point(136, 54);
+            this.txtInvenCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtInvenCode.MaxLength = 10;
             this.txtInvenCode.Name = "txtInvenCode";
             this.txtInvenCode.ReadOnly = true;
-            this.txtInvenCode.Size = new System.Drawing.Size(126, 21);
+            this.txtInvenCode.Size = new System.Drawing.Size(248, 35);
             this.txtInvenCode.TabIndex = 8;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(10, 112);
+            this.label7.Location = new System.Drawing.Point(20, 224);
+            this.label7.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 12);
+            this.label7.Size = new System.Drawing.Size(106, 24);
             this.label7.TabIndex = 6;
             this.label7.Text = "参考进价";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(472, 72);
+            this.label6.Location = new System.Drawing.Point(944, 144);
+            this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 12);
+            this.label6.Size = new System.Drawing.Size(106, 24);
             this.label6.TabIndex = 5;
             this.label6.Text = "参考售价";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(10, 72);
+            this.label4.Location = new System.Drawing.Point(20, 144);
+            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 12);
+            this.label4.Size = new System.Drawing.Size(106, 24);
             this.label4.TabIndex = 3;
             this.label4.Text = "规格型号";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(472, 31);
+            this.label3.Location = new System.Drawing.Point(944, 62);
+            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 12);
+            this.label3.Size = new System.Drawing.Size(106, 24);
             this.label3.TabIndex = 2;
             this.label3.Text = "存货类别";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(243, 31);
+            this.label2.Location = new System.Drawing.Point(486, 62);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 12);
+            this.label2.Size = new System.Drawing.Size(106, 24);
             this.label2.TabIndex = 1;
             this.label2.Text = "存货名称";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 31);
+            this.label1.Location = new System.Drawing.Point(20, 62);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 12);
+            this.label1.Size = new System.Drawing.Size(106, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "存货编码";
             // 
             // FormBSInven
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(687, 416);
+            this.ClientSize = new System.Drawing.Size(1374, 832);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.toolStrip1);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.MaximizeBox = false;
             this.Name = "FormBSInven";
             this.Text = "存货档案";
