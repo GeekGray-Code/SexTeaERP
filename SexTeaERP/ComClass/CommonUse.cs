@@ -14,6 +14,10 @@ using SexTeaERP.DataClass;
 using SexTeaERP.Base;
 using SexTeaERP.Purchase;
 using SexTeaERP.Customer;
+using SexTeaERP.Storehouse;
+using SexTeaERP.Produce;
+using SexTeaERP.Sell;
+using SexTeaERP.Finance;
 
 namespace SexTeaERP.ComClass
 {
@@ -690,6 +694,114 @@ namespace SexTeaERP.ComClass
                     formPUPay.Show();
                     break;
 
+                case "310":
+
+                    FormSEOrder formSEOrder = new FormSEOrder();
+                    formSEOrder.MdiParent = form;
+                    formSEOrder.StartPosition = FormStartPosition.CenterScreen;
+                    formSEOrder.Tag = menuItem.Tag.ToString();
+                    formSEOrder.Show();
+                    break;
+
+                case "320":
+
+                    FormSEOutStore formSEOutStore = new FormSEOutStore();
+                    formSEOutStore.MdiParent = form;
+                    formSEOutStore.StartPosition = FormStartPosition.CenterScreen;
+                    formSEOutStore.Tag = menuItem.Tag.ToString();
+                    formSEOutStore.Show();
+                    break;
+
+                case "330":
+
+                    FormSEGather formSEGather = new FormSEGather();
+                    formSEGather.MdiParent = form;
+                    formSEGather.StartPosition = FormStartPosition.CenterScreen;
+                    formSEGather.Tag = menuItem.Tag.ToString();
+                    formSEGather.Show();
+                    break;
+
+                case "410":
+
+                    FormSTGetMaterial formSTGetMaterial = new FormSTGetMaterial();
+                    formSTGetMaterial.MdiParent = form;
+                    formSTGetMaterial.StartPosition = FormStartPosition.CenterScreen;
+                    formSTGetMaterial.Tag = menuItem.Tag.ToString();
+                    formSTGetMaterial.Show();
+                    break;
+
+                case "420":
+
+                    FormSTReturnMaterial formSTReturnMaterial = new FormSTReturnMaterial();
+                    formSTReturnMaterial.MdiParent = form;
+                    formSTReturnMaterial.StartPosition = FormStartPosition.CenterScreen;
+                    formSTReturnMaterial.Tag = menuItem.Tag.ToString();
+                    formSTReturnMaterial.Show();
+                    break;
+
+                case "430":
+
+                    FormSTLoss formSTLoss = new FormSTLoss();
+                    formSTLoss.MdiParent = form;
+                    formSTLoss.StartPosition = FormStartPosition.CenterScreen;
+                    formSTLoss.Tag = menuItem.Tag.ToString();
+                    formSTLoss.Show();
+                    break;
+
+                case "440":
+
+                    FormSTCheck formSTCheck = new FormSTCheck();
+                    formSTCheck.MdiParent = form;
+                    formSTCheck.StartPosition = FormStartPosition.CenterScreen;
+                    formSTCheck.Tag = menuItem.Tag.ToString();
+                    formSTCheck.Show();
+                    break;
+
+                case "450":
+
+                    FormStockQuery formStockQuery = new FormStockQuery();
+                    formStockQuery.MdiParent = form;
+                    formStockQuery.StartPosition = FormStartPosition.CenterScreen;
+                    formStockQuery.Tag = menuItem.Tag.ToString();
+                    formStockQuery.Show();
+                    break;
+
+                case "510":
+
+                    FormPRPlan formPRPlan = new FormPRPlan();
+                    formPRPlan.MdiParent = form;
+                    formPRPlan.StartPosition = FormStartPosition.CenterScreen;
+                    formPRPlan.Tag = menuItem.Tag.ToString();
+                    formPRPlan.Show();
+                    break;
+
+                case "520":
+
+                    FormPRProduce formPRProduce = new FormPRProduce();
+                    formPRProduce.MdiParent = form;
+                    formPRProduce.StartPosition = FormStartPosition.CenterScreen;
+                    formPRProduce.Tag = menuItem.Tag.ToString();
+                    formPRProduce.Show();
+                    break;
+
+                case "530":
+
+                    FormProduceComplete formProduceComplete = new FormProduceComplete();
+                    formProduceComplete.MdiParent = form;
+                    formProduceComplete.StartPosition = FormStartPosition.CenterScreen;
+                    formProduceComplete.Tag = menuItem.Tag.ToString();
+                    formProduceComplete.Show();
+                    break;
+
+                case "540":
+
+                    FormPRInStore formPRInStore = new FormPRInStore();
+                    formPRInStore.MdiParent = form;
+                    formPRInStore.StartPosition = FormStartPosition.CenterScreen;
+                    formPRInStore.Tag = menuItem.Tag.ToString();
+                    formPRInStore.Show();
+                    break;
+
 
                 case "610":
 
@@ -716,6 +828,33 @@ namespace SexTeaERP.ComClass
                     formCustomerAnalyse.StartPosition = FormStartPosition.CenterScreen;
                     formCustomerAnalyse.Tag = menuItem.Tag.ToString();
                     formCustomerAnalyse.Show();
+                    break;
+
+                case "710":
+
+                    FormFIDeposit formFIDeposit = new FormFIDeposit();
+                    formFIDeposit.MdiParent = form;
+                    formFIDeposit.StartPosition = FormStartPosition.CenterScreen;
+                    formFIDeposit.Tag = menuItem.Tag.ToString();
+                    formFIDeposit.Show();
+                    break;
+
+                case "720":
+
+                    FormFIPurCost formFIPurCost = new FormFIPurCost();
+                    formFIPurCost.MdiParent = form;
+                    formFIPurCost.StartPosition = FormStartPosition.CenterScreen;
+                    formFIPurCost.Tag = menuItem.Tag.ToString();
+                    formFIPurCost.Show();
+                    break;
+
+                case "730":
+
+                    FormFISelCost formFISelCost = new FormFISelCost();
+                    formFISelCost.MdiParent = form;
+                    formFISelCost.StartPosition = FormStartPosition.CenterScreen;
+                    formFISelCost.Tag = menuItem.Tag.ToString();
+                    formFISelCost.Show();
                     break;
 
 

@@ -104,6 +104,7 @@
             // 
             this.wtbPwd.Location = new System.Drawing.Point(209, 191);
             this.wtbPwd.Name = "wtbPwd";
+            this.wtbPwd.PasswordChar = '*';
             this.wtbPwd.Size = new System.Drawing.Size(145, 35);
             this.wtbPwd.TabIndex = 1;
             this.wtbPwd.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));

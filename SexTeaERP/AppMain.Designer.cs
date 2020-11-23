@@ -88,6 +88,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.基础管理ToolStripMenuItem,
@@ -533,7 +534,7 @@
             // 
             this.操作员管理ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("操作员管理ToolStripMenuItem.Image")));
             this.操作员管理ToolStripMenuItem.Name = "操作员管理ToolStripMenuItem";
-            this.操作员管理ToolStripMenuItem.Size = new System.Drawing.Size(267, 44);
+            this.操作员管理ToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
             this.操作员管理ToolStripMenuItem.Tag = "910";
             this.操作员管理ToolStripMenuItem.Text = "操作员管理";
             this.操作员管理ToolStripMenuItem.Click += new System.EventHandler(this.Menu_Click);
@@ -542,20 +543,18 @@
             // 
             this.密码修改ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("密码修改ToolStripMenuItem.Image")));
             this.密码修改ToolStripMenuItem.Name = "密码修改ToolStripMenuItem";
-            this.密码修改ToolStripMenuItem.Size = new System.Drawing.Size(267, 44);
+            this.密码修改ToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
             this.密码修改ToolStripMenuItem.Tag = "920";
             this.密码修改ToolStripMenuItem.Text = "密码修改";
             this.密码修改ToolStripMenuItem.Click += new System.EventHandler(this.Menu_Click);
             // 
             // 权限分配ToolStripMenuItem
             // 
-            this.权限分配ToolStripMenuItem.Enabled = false;
             this.权限分配ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("权限分配ToolStripMenuItem.Image")));
             this.权限分配ToolStripMenuItem.Name = "权限分配ToolStripMenuItem";
-            this.权限分配ToolStripMenuItem.Size = new System.Drawing.Size(267, 44);
+            this.权限分配ToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
             this.权限分配ToolStripMenuItem.Tag = "930";
             this.权限分配ToolStripMenuItem.Text = "操作权限";
-            this.权限分配ToolStripMenuItem.Visible = false;
             this.权限分配ToolStripMenuItem.Click += new System.EventHandler(this.Menu_Click);
             // 
             // timerTime
@@ -621,6 +620,7 @@
             this.Name = "AppMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SexyTeaERP管理系统";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AppMain_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AppMain_FormClosed);
             this.Load += new System.EventHandler(this.AppMain_Load);

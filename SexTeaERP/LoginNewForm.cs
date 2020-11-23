@@ -89,9 +89,9 @@ namespace SexTeaERP
 
             try
             {
-                sdr = db.GetDataReader(strSql);
+                sdr = db.GetDataReader(strSql);//DataReader每次只在内存中加载一条数据
                 sdr.Read();
-                if (sdr.HasRows)
+                if (sdr.HasRows)//如果 SqlDataReader 包含一行或多行，则为 true；否则为 false。
                 {
                     AppMain AppForm = new AppMain();
                     this.Hide();

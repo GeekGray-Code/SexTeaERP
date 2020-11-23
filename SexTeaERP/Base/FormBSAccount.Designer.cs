@@ -110,7 +110,7 @@
             this.toolCancel.Image = ((System.Drawing.Image)(resources.GetObject("toolCancel.Image")));
             this.toolCancel.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolCancel.Name = "toolCancel";
-            this.toolCancel.Size = new System.Drawing.Size(98, 36);
+            this.toolCancel.Size = new System.Drawing.Size(98, 44);
             this.toolCancel.Tag = "2";
             this.toolCancel.Text = "取消";
             this.toolCancel.Click += new System.EventHandler(this.toolCancel_Click);
@@ -121,7 +121,7 @@
             this.toolAdd.Image = ((System.Drawing.Image)(resources.GetObject("toolAdd.Image")));
             this.toolAdd.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolAdd.Name = "toolAdd";
-            this.toolAdd.Size = new System.Drawing.Size(98, 36);
+            this.toolAdd.Size = new System.Drawing.Size(98, 44);
             this.toolAdd.Tag = "3";
             this.toolAdd.Text = "添加";
             this.toolAdd.Click += new System.EventHandler(this.toolAdd_Click);
@@ -132,7 +132,7 @@
             this.toolAmend.Image = ((System.Drawing.Image)(resources.GetObject("toolAmend.Image")));
             this.toolAmend.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolAmend.Name = "toolAmend";
-            this.toolAmend.Size = new System.Drawing.Size(98, 36);
+            this.toolAmend.Size = new System.Drawing.Size(98, 44);
             this.toolAmend.Tag = "4";
             this.toolAmend.Text = "修改";
             this.toolAmend.Click += new System.EventHandler(this.toolAmend_Click);
@@ -143,7 +143,7 @@
             this.toolDelete.Image = ((System.Drawing.Image)(resources.GetObject("toolDelete.Image")));
             this.toolDelete.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolDelete.Name = "toolDelete";
-            this.toolDelete.Size = new System.Drawing.Size(98, 36);
+            this.toolDelete.Size = new System.Drawing.Size(98, 44);
             this.toolDelete.Tag = "5";
             this.toolDelete.Text = "删除";
             this.toolDelete.Click += new System.EventHandler(this.toolDelete_Click);
@@ -153,44 +153,43 @@
             this.toolreflush.Image = ((System.Drawing.Image)(resources.GetObject("toolreflush.Image")));
             this.toolreflush.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolreflush.Name = "toolreflush";
-            this.toolreflush.Size = new System.Drawing.Size(98, 36);
+            this.toolreflush.Size = new System.Drawing.Size(98, 44);
             this.toolreflush.Text = "刷新";
             this.toolreflush.Click += new System.EventHandler(this.toolreflush_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 42);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 50);
             // 
             // labCondation
             // 
             this.labCondation.Name = "labCondation";
-            this.labCondation.Size = new System.Drawing.Size(116, 36);
+            this.labCondation.Size = new System.Drawing.Size(116, 44);
             this.labCondation.Text = "查询条件:";
             // 
             // cbxCondition
             // 
             this.cbxCondition.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxCondition.Name = "cbxCondition";
-            this.cbxCondition.Size = new System.Drawing.Size(90, 42);
+            this.cbxCondition.Size = new System.Drawing.Size(90, 50);
             // 
             // txtKeyWord
             // 
-            this.txtKeyWord.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.txtKeyWord.Name = "txtKeyWord";
-            this.txtKeyWord.Size = new System.Drawing.Size(100, 42);
+            this.txtKeyWord.Size = new System.Drawing.Size(100, 50);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 42);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 50);
             // 
             // txtOK
             // 
             this.txtOK.Image = ((System.Drawing.Image)(resources.GetObject("txtOK.Image")));
             this.txtOK.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.txtOK.Name = "txtOK";
-            this.txtOK.Size = new System.Drawing.Size(98, 36);
+            this.txtOK.Size = new System.Drawing.Size(98, 44);
             this.txtOK.Tag = "6";
             this.txtOK.Text = "查找";
             this.txtOK.Click += new System.EventHandler(this.txtOK_Click);
@@ -200,7 +199,7 @@
             this.toolExit.Image = ((System.Drawing.Image)(resources.GetObject("toolExit.Image")));
             this.toolExit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolExit.Name = "toolExit";
-            this.toolExit.Size = new System.Drawing.Size(98, 36);
+            this.toolExit.Size = new System.Drawing.Size(98, 44);
             this.toolExit.Tag = "7";
             this.toolExit.Text = "退出";
             this.toolExit.Click += new System.EventHandler(this.toolExit_Click);
@@ -209,9 +208,9 @@
             // 
             this.groupBox2.Controls.Add(this.dgvAccountInfo);
             this.groupBox2.Location = new System.Drawing.Point(24, 294);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(6);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(6);
             this.groupBox2.Size = new System.Drawing.Size(1326, 514);
             this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
@@ -228,7 +227,7 @@
             this.AccSubject,
             this.AccMoney});
             this.dgvAccountInfo.Location = new System.Drawing.Point(16, 30);
-            this.dgvAccountInfo.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.dgvAccountInfo.Margin = new System.Windows.Forms.Padding(6);
             this.dgvAccountInfo.Name = "dgvAccountInfo";
             this.dgvAccountInfo.RowHeadersWidth = 82;
             this.dgvAccountInfo.RowTemplate.Height = 23;
@@ -296,9 +295,9 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(24, 58);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(6);
             this.groupBox1.Size = new System.Drawing.Size(1326, 224);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
@@ -307,7 +306,7 @@
             // txtAccMoney
             // 
             this.txtAccMoney.Location = new System.Drawing.Point(522, 140);
-            this.txtAccMoney.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtAccMoney.Margin = new System.Windows.Forms.Padding(6);
             this.txtAccMoney.MaxLength = 9;
             this.txtAccMoney.Name = "txtAccMoney";
             this.txtAccMoney.ReadOnly = true;
@@ -322,7 +321,7 @@
             this.cbxAccSubject.Enabled = false;
             this.cbxAccSubject.FormattingEnabled = true;
             this.cbxAccSubject.Location = new System.Drawing.Point(132, 140);
-            this.cbxAccSubject.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cbxAccSubject.Margin = new System.Windows.Forms.Padding(6);
             this.cbxAccSubject.Name = "cbxAccSubject";
             this.cbxAccSubject.Size = new System.Drawing.Size(248, 32);
             this.cbxAccSubject.TabIndex = 13;
@@ -340,7 +339,7 @@
             // txtBankAccount
             // 
             this.txtBankAccount.Location = new System.Drawing.Point(900, 54);
-            this.txtBankAccount.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtBankAccount.Margin = new System.Windows.Forms.Padding(6);
             this.txtBankAccount.MaxLength = 19;
             this.txtBankAccount.Name = "txtBankAccount";
             this.txtBankAccount.ReadOnly = true;
@@ -350,7 +349,7 @@
             // txtAccountName
             // 
             this.txtAccountName.Location = new System.Drawing.Point(522, 54);
-            this.txtAccountName.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtAccountName.Margin = new System.Windows.Forms.Padding(6);
             this.txtAccountName.MaxLength = 50;
             this.txtAccountName.Name = "txtAccountName";
             this.txtAccountName.ReadOnly = true;
@@ -360,7 +359,7 @@
             // txtAccountCode
             // 
             this.txtAccountCode.Location = new System.Drawing.Point(132, 54);
-            this.txtAccountCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtAccountCode.Margin = new System.Windows.Forms.Padding(6);
             this.txtAccountCode.MaxLength = 10;
             this.txtAccountCode.Name = "txtAccountCode";
             this.txtAccountCode.ReadOnly = true;
@@ -416,7 +415,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.toolStrip1);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "FormBSAccount";
             this.Text = "结算账户";

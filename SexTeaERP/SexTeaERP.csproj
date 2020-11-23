@@ -246,6 +246,24 @@
     <Compile Include="AppMain.Designer.cs">
       <DependentUpon>AppMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Finance\FormFIDeposit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finance\FormFIDeposit.Designer.cs">
+      <DependentUpon>FormFIDeposit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\FormFIPurCost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finance\FormFIPurCost.Designer.cs">
+      <DependentUpon>FormFIPurCost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\FormFISelCost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finance\FormFISelCost.Designer.cs">
+      <DependentUpon>FormFISelCost.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -257,6 +275,42 @@
     </Compile>
     <Compile Include="LoginNewForm.Designer.cs">
       <DependentUpon>LoginNewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produce\FormBrowsePRPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produce\FormBrowsePRPlan.Designer.cs">
+      <DependentUpon>FormBrowsePRPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produce\FormBrowsePRProduce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produce\FormBrowsePRProduce.Designer.cs">
+      <DependentUpon>FormBrowsePRProduce.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produce\FormPRInStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produce\FormPRInStore.Designer.cs">
+      <DependentUpon>FormPRInStore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produce\FormProduceComplete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produce\FormProduceComplete.Designer.cs">
+      <DependentUpon>FormProduceComplete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produce\FormPRPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produce\FormPRPlan.Designer.cs">
+      <DependentUpon>FormPRPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produce\FormPRProduce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produce\FormPRProduce.Designer.cs">
+      <DependentUpon>FormPRProduce.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -333,12 +387,39 @@
     <EmbeddedResource Include="Customer\FormCustomerCourse.resx">
       <DependentUpon>FormCustomerCourse.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Finance\FormFIDeposit.resx">
+      <DependentUpon>FormFIDeposit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\FormFIPurCost.resx">
+      <DependentUpon>FormFIPurCost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\FormFISelCost.resx">
+      <DependentUpon>FormFISelCost.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginNewForm.resx">
       <DependentUpon>LoginNewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produce\FormBrowsePRPlan.resx">
+      <DependentUpon>FormBrowsePRPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produce\FormBrowsePRProduce.resx">
+      <DependentUpon>FormBrowsePRProduce.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produce\FormPRInStore.resx">
+      <DependentUpon>FormPRInStore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produce\FormProduceComplete.resx">
+      <DependentUpon>FormProduceComplete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produce\FormPRPlan.resx">
+      <DependentUpon>FormPRPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produce\FormPRProduce.resx">
+      <DependentUpon>FormPRProduce.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -359,6 +440,42 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Purchase\FormPUPay.resx">
       <DependentUpon>FormPUPay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sell\FormBrowseSEOrder.resx">
+      <DependentUpon>FormBrowseSEOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sell\FormBrowseSEOutStore.resx">
+      <DependentUpon>FormBrowseSEOutStore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sell\FormSEGather.resx">
+      <DependentUpon>FormSEGather.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sell\FormSEOrder.resx">
+      <DependentUpon>FormSEOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sell\FormSEOutStore.resx">
+      <DependentUpon>FormSEOutStore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storehouse\FormSTCheck.resx">
+      <DependentUpon>FormSTCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storehouse\FormSTGetBrowseProduce.resx">
+      <DependentUpon>FormSTGetBrowseProduce.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storehouse\FormSTGetMaterial.resx">
+      <DependentUpon>FormSTGetMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storehouse\FormSTLoss.resx">
+      <DependentUpon>FormSTLoss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storehouse\FormStockQuery.resx">
+      <DependentUpon>FormStockQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storehouse\FormSTReturnBrowseProduce.resx">
+      <DependentUpon>FormSTReturnBrowseProduce.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storehouse\FormSTReturnMaterial.resx">
+      <DependentUpon>FormSTReturnMaterial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SystemManagement\FormAssignRight.resx">
       <DependentUpon>FormAssignRight.cs</DependentUpon>
@@ -416,6 +533,78 @@
     </Compile>
     <Compile Include="Purchase\FormPUPay.Designer.cs">
       <DependentUpon>FormPUPay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sell\FormBrowseSEOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sell\FormBrowseSEOrder.Designer.cs">
+      <DependentUpon>FormBrowseSEOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sell\FormBrowseSEOutStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sell\FormBrowseSEOutStore.Designer.cs">
+      <DependentUpon>FormBrowseSEOutStore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sell\FormSEGather.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sell\FormSEGather.Designer.cs">
+      <DependentUpon>FormSEGather.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sell\FormSEOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sell\FormSEOrder.Designer.cs">
+      <DependentUpon>FormSEOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sell\FormSEOutStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sell\FormSEOutStore.Designer.cs">
+      <DependentUpon>FormSEOutStore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storehouse\FormSTCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Storehouse\FormSTCheck.Designer.cs">
+      <DependentUpon>FormSTCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storehouse\FormSTGetBrowseProduce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Storehouse\FormSTGetBrowseProduce.Designer.cs">
+      <DependentUpon>FormSTGetBrowseProduce.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storehouse\FormSTGetMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Storehouse\FormSTGetMaterial.Designer.cs">
+      <DependentUpon>FormSTGetMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storehouse\FormSTLoss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Storehouse\FormSTLoss.Designer.cs">
+      <DependentUpon>FormSTLoss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storehouse\FormStockQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Storehouse\FormStockQuery.Designer.cs">
+      <DependentUpon>FormStockQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storehouse\FormSTReturnBrowseProduce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Storehouse\FormSTReturnBrowseProduce.Designer.cs">
+      <DependentUpon>FormSTReturnBrowseProduce.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storehouse\FormSTReturnMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Storehouse\FormSTReturnMaterial.Designer.cs">
+      <DependentUpon>FormSTReturnMaterial.cs</DependentUpon>
     </Compile>
     <Compile Include="SystemManagement\FormAssignRight.cs">
       <SubType>Form</SubType>
