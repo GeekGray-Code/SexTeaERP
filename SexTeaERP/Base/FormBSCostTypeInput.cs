@@ -35,12 +35,14 @@ namespace SexTeaERP.Base
             //在修改操作下打开FormBSCostTypeInput窗体
             if (this.Tag.ToString() != "Add")
             {
+                //如果不是点击添加按钮，默认填充原数据
                 txtTypeCode.Text = formCostType.tvCostType.SelectedNode.Tag.ToString();
                 txtTypeName.Text = formCostType.tvCostType.SelectedNode.Text;
 
                 //判断是否存在外键约束
                 if (commUse.IsExistConstraint("BSCostType", formCostType.tvCostType.SelectedNode.Tag.ToString()))
                 {
+                    //存在外键约束不可修改
                     txtTypeCode.Enabled = false;
                 }
                 else
@@ -50,6 +52,7 @@ namespace SexTeaERP.Base
             }
         }
 
+        //保存
         private void btnOk_Click(object sender, EventArgs e)
         {
             string strCode = null;
@@ -79,6 +82,7 @@ namespace SexTeaERP.Base
                     sdr = db.GetDataReader(strCode);
                     sdr.Read();
 
+                    //若表中无重复typecode 则插入该条
                     if (!sdr.HasRows)
                     {
                         sdr.Close();

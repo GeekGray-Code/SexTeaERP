@@ -89,7 +89,6 @@
             // 
             // toolStrip1
             // 
-            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolSave,
             this.toolCancel,
@@ -109,7 +108,7 @@
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
             this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.toolStrip1.Size = new System.Drawing.Size(1374, 50);
+            this.toolStrip1.Size = new System.Drawing.Size(1374, 41);
             this.toolStrip1.TabIndex = 9;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -120,7 +119,7 @@
             this.toolSave.Image = ((System.Drawing.Image)(resources.GetObject("toolSave.Image")));
             this.toolSave.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolSave.Name = "toolSave";
-            this.toolSave.Size = new System.Drawing.Size(98, 44);
+            this.toolSave.Size = new System.Drawing.Size(82, 35);
             this.toolSave.Tag = "1";
             this.toolSave.Text = "保存";
             this.toolSave.Click += new System.EventHandler(this.toolSave_Click);
@@ -131,7 +130,7 @@
             this.toolCancel.Image = ((System.Drawing.Image)(resources.GetObject("toolCancel.Image")));
             this.toolCancel.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolCancel.Name = "toolCancel";
-            this.toolCancel.Size = new System.Drawing.Size(98, 44);
+            this.toolCancel.Size = new System.Drawing.Size(82, 35);
             this.toolCancel.Tag = "2";
             this.toolCancel.Text = "取消";
             this.toolCancel.Click += new System.EventHandler(this.toolCancel_Click);
@@ -142,7 +141,7 @@
             this.toolAdd.Image = ((System.Drawing.Image)(resources.GetObject("toolAdd.Image")));
             this.toolAdd.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolAdd.Name = "toolAdd";
-            this.toolAdd.Size = new System.Drawing.Size(98, 44);
+            this.toolAdd.Size = new System.Drawing.Size(82, 35);
             this.toolAdd.Tag = "3";
             this.toolAdd.Text = "添加";
             this.toolAdd.Click += new System.EventHandler(this.toolAdd_Click);
@@ -153,7 +152,7 @@
             this.toolAmend.Image = ((System.Drawing.Image)(resources.GetObject("toolAmend.Image")));
             this.toolAmend.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolAmend.Name = "toolAmend";
-            this.toolAmend.Size = new System.Drawing.Size(98, 44);
+            this.toolAmend.Size = new System.Drawing.Size(82, 35);
             this.toolAmend.Tag = "4";
             this.toolAmend.Text = "修改";
             this.toolAmend.Click += new System.EventHandler(this.toolAmend_Click);
@@ -164,7 +163,7 @@
             this.toolDelete.Image = ((System.Drawing.Image)(resources.GetObject("toolDelete.Image")));
             this.toolDelete.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolDelete.Name = "toolDelete";
-            this.toolDelete.Size = new System.Drawing.Size(98, 44);
+            this.toolDelete.Size = new System.Drawing.Size(82, 35);
             this.toolDelete.Tag = "5";
             this.toolDelete.Text = "删除";
             this.toolDelete.Click += new System.EventHandler(this.toolDelete_Click);
@@ -175,7 +174,7 @@
             this.toolCheck.Image = ((System.Drawing.Image)(resources.GetObject("toolCheck.Image")));
             this.toolCheck.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolCheck.Name = "toolCheck";
-            this.toolCheck.Size = new System.Drawing.Size(98, 44);
+            this.toolCheck.Size = new System.Drawing.Size(82, 35);
             this.toolCheck.Text = "审核";
             this.toolCheck.Click += new System.EventHandler(this.toolCheck_Click);
             // 
@@ -185,44 +184,43 @@
             this.toolUnCheck.Image = ((System.Drawing.Image)(resources.GetObject("toolUnCheck.Image")));
             this.toolUnCheck.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolUnCheck.Name = "toolUnCheck";
-            this.toolUnCheck.Size = new System.Drawing.Size(98, 44);
+            this.toolUnCheck.Size = new System.Drawing.Size(82, 35);
             this.toolUnCheck.Text = "弃审";
             this.toolUnCheck.Click += new System.EventHandler(this.toolUnCheck_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 50);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 41);
             // 
             // labCondation
             // 
             this.labCondation.Name = "labCondation";
-            this.labCondation.Size = new System.Drawing.Size(116, 44);
+            this.labCondation.Size = new System.Drawing.Size(116, 35);
             this.labCondation.Text = "查询条件:";
             // 
             // cbxCondition
             // 
             this.cbxCondition.DropDownWidth = 90;
             this.cbxCondition.Name = "cbxCondition";
-            this.cbxCondition.Size = new System.Drawing.Size(75, 50);
+            this.cbxCondition.Size = new System.Drawing.Size(75, 41);
             // 
             // txtKeyWord
             // 
-            this.txtKeyWord.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.txtKeyWord.Name = "txtKeyWord";
-            this.txtKeyWord.Size = new System.Drawing.Size(80, 50);
+            this.txtKeyWord.Size = new System.Drawing.Size(80, 41);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 50);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 41);
             // 
             // txtOK
             // 
             this.txtOK.Image = ((System.Drawing.Image)(resources.GetObject("txtOK.Image")));
             this.txtOK.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.txtOK.Name = "txtOK";
-            this.txtOK.Size = new System.Drawing.Size(98, 44);
+            this.txtOK.Size = new System.Drawing.Size(82, 35);
             this.txtOK.Tag = "6";
             this.txtOK.Text = "查找";
             this.txtOK.Click += new System.EventHandler(this.txtOK_Click);
@@ -232,7 +230,7 @@
             this.toolExit.Image = ((System.Drawing.Image)(resources.GetObject("toolExit.Image")));
             this.toolExit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolExit.Name = "toolExit";
-            this.toolExit.Size = new System.Drawing.Size(98, 44);
+            this.toolExit.Size = new System.Drawing.Size(82, 35);
             this.toolExit.Tag = "7";
             this.toolExit.Text = "退出";
             this.toolExit.Click += new System.EventHandler(this.toolExit_Click);
@@ -241,9 +239,9 @@
             // 
             this.groupBox2.Controls.Add(this.dgvPUPayInfo);
             this.groupBox2.Location = new System.Drawing.Point(16, 380);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(6);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(6);
             this.groupBox2.Size = new System.Drawing.Size(1342, 434);
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
@@ -266,7 +264,7 @@
             this.Remark,
             this.IsFlag});
             this.dgvPUPayInfo.Location = new System.Drawing.Point(16, 30);
-            this.dgvPUPayInfo.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.dgvPUPayInfo.Margin = new System.Windows.Forms.Padding(6);
             this.dgvPUPayInfo.Name = "dgvPUPayInfo";
             this.dgvPUPayInfo.RowHeadersWidth = 82;
             this.dgvPUPayInfo.RowTemplate.Height = 23;
@@ -410,9 +408,9 @@
             this.groupBox1.Controls.Add(this.txtPUPayCode);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(16, 54);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(6);
             this.groupBox1.Size = new System.Drawing.Size(1342, 320);
             this.groupBox1.TabIndex = 66;
             this.groupBox1.TabStop = false;
@@ -421,7 +419,7 @@
             // txtRemark
             // 
             this.txtRemark.Location = new System.Drawing.Point(144, 262);
-            this.txtRemark.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtRemark.Margin = new System.Windows.Forms.Padding(6);
             this.txtRemark.Name = "txtRemark";
             this.txtRemark.ReadOnly = true;
             this.txtRemark.Size = new System.Drawing.Size(730, 35);
@@ -432,7 +430,7 @@
             this.cbxEmployeeCode.Enabled = false;
             this.cbxEmployeeCode.FormattingEnabled = true;
             this.cbxEmployeeCode.Location = new System.Drawing.Point(1060, 186);
-            this.cbxEmployeeCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cbxEmployeeCode.Margin = new System.Windows.Forms.Padding(6);
             this.cbxEmployeeCode.Name = "cbxEmployeeCode";
             this.cbxEmployeeCode.Size = new System.Drawing.Size(248, 32);
             this.cbxEmployeeCode.TabIndex = 111;
@@ -442,7 +440,7 @@
             this.cbxAccountCode.Enabled = false;
             this.cbxAccountCode.FormattingEnabled = true;
             this.cbxAccountCode.Location = new System.Drawing.Point(606, 186);
-            this.cbxAccountCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cbxAccountCode.Margin = new System.Windows.Forms.Padding(6);
             this.cbxAccountCode.Name = "cbxAccountCode";
             this.cbxAccountCode.Size = new System.Drawing.Size(248, 32);
             this.cbxAccountCode.TabIndex = 110;
@@ -450,7 +448,7 @@
             // txtPUMoney
             // 
             this.txtPUMoney.Location = new System.Drawing.Point(144, 186);
-            this.txtPUMoney.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtPUMoney.Margin = new System.Windows.Forms.Padding(6);
             this.txtPUMoney.MaxLength = 9;
             this.txtPUMoney.Name = "txtPUMoney";
             this.txtPUMoney.ReadOnly = true;
@@ -472,7 +470,7 @@
             // 
             this.dtpPUInDate.Enabled = false;
             this.dtpPUInDate.Location = new System.Drawing.Point(606, 108);
-            this.dtpPUInDate.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.dtpPUInDate.Margin = new System.Windows.Forms.Padding(6);
             this.dtpPUInDate.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
             this.dtpPUInDate.Name = "dtpPUInDate";
             this.dtpPUInDate.Size = new System.Drawing.Size(248, 35);
@@ -483,7 +481,7 @@
             this.btnChoice.Enabled = false;
             this.btnChoice.Font = new System.Drawing.Font("宋体", 3.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnChoice.Location = new System.Drawing.Point(396, 108);
-            this.btnChoice.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnChoice.Margin = new System.Windows.Forms.Padding(6);
             this.btnChoice.Name = "btnChoice";
             this.btnChoice.Size = new System.Drawing.Size(40, 40);
             this.btnChoice.TabIndex = 106;
@@ -494,7 +492,7 @@
             // txtPUInCode
             // 
             this.txtPUInCode.Location = new System.Drawing.Point(144, 108);
-            this.txtPUInCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtPUInCode.Margin = new System.Windows.Forms.Padding(6);
             this.txtPUInCode.MaxLength = 10;
             this.txtPUInCode.Name = "txtPUInCode";
             this.txtPUInCode.ReadOnly = true;
@@ -506,7 +504,7 @@
             this.cbxIsFlag.Enabled = false;
             this.cbxIsFlag.FormattingEnabled = true;
             this.cbxIsFlag.Location = new System.Drawing.Point(1060, 262);
-            this.cbxIsFlag.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cbxIsFlag.Margin = new System.Windows.Forms.Padding(6);
             this.cbxIsFlag.Name = "cbxIsFlag";
             this.cbxIsFlag.Size = new System.Drawing.Size(248, 32);
             this.cbxIsFlag.TabIndex = 104;
@@ -556,7 +554,7 @@
             this.cbxSupplierCode.Enabled = false;
             this.cbxSupplierCode.FormattingEnabled = true;
             this.cbxSupplierCode.Location = new System.Drawing.Point(1060, 108);
-            this.cbxSupplierCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cbxSupplierCode.Margin = new System.Windows.Forms.Padding(6);
             this.cbxSupplierCode.Name = "cbxSupplierCode";
             this.cbxSupplierCode.Size = new System.Drawing.Size(248, 32);
             this.cbxSupplierCode.TabIndex = 92;
@@ -586,7 +584,7 @@
             this.cbxOperatorCode.Enabled = false;
             this.cbxOperatorCode.FormattingEnabled = true;
             this.cbxOperatorCode.Location = new System.Drawing.Point(1060, 30);
-            this.cbxOperatorCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cbxOperatorCode.Margin = new System.Windows.Forms.Padding(6);
             this.cbxOperatorCode.Name = "cbxOperatorCode";
             this.cbxOperatorCode.Size = new System.Drawing.Size(248, 32);
             this.cbxOperatorCode.TabIndex = 82;
@@ -595,7 +593,7 @@
             // 
             this.dtpPUPayDate.Enabled = false;
             this.dtpPUPayDate.Location = new System.Drawing.Point(606, 30);
-            this.dtpPUPayDate.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.dtpPUPayDate.Margin = new System.Windows.Forms.Padding(6);
             this.dtpPUPayDate.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
             this.dtpPUPayDate.Name = "dtpPUPayDate";
             this.dtpPUPayDate.Size = new System.Drawing.Size(248, 35);
@@ -634,7 +632,7 @@
             // txtPUPayCode
             // 
             this.txtPUPayCode.Location = new System.Drawing.Point(144, 30);
-            this.txtPUPayCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtPUPayCode.Margin = new System.Windows.Forms.Padding(6);
             this.txtPUPayCode.MaxLength = 10;
             this.txtPUPayCode.Name = "txtPUPayCode";
             this.txtPUPayCode.ReadOnly = true;
@@ -655,11 +653,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1374, 832);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.toolStrip1);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "FormPUPay";
             this.Text = "采购付款单";

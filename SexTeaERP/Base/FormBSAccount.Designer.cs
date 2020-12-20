@@ -69,7 +69,6 @@
             // 
             // toolStrip1
             // 
-            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolSave,
             this.toolCancel,
@@ -88,7 +87,7 @@
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
             this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.toolStrip1.Size = new System.Drawing.Size(1374, 50);
+            this.toolStrip1.Size = new System.Drawing.Size(1374, 41);
             this.toolStrip1.TabIndex = 5;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -99,7 +98,7 @@
             this.toolSave.Image = ((System.Drawing.Image)(resources.GetObject("toolSave.Image")));
             this.toolSave.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolSave.Name = "toolSave";
-            this.toolSave.Size = new System.Drawing.Size(98, 44);
+            this.toolSave.Size = new System.Drawing.Size(82, 35);
             this.toolSave.Tag = "1";
             this.toolSave.Text = "保存";
             this.toolSave.Click += new System.EventHandler(this.toolSave_Click);
@@ -110,7 +109,7 @@
             this.toolCancel.Image = ((System.Drawing.Image)(resources.GetObject("toolCancel.Image")));
             this.toolCancel.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolCancel.Name = "toolCancel";
-            this.toolCancel.Size = new System.Drawing.Size(98, 44);
+            this.toolCancel.Size = new System.Drawing.Size(82, 44);
             this.toolCancel.Tag = "2";
             this.toolCancel.Text = "取消";
             this.toolCancel.Click += new System.EventHandler(this.toolCancel_Click);
@@ -121,7 +120,7 @@
             this.toolAdd.Image = ((System.Drawing.Image)(resources.GetObject("toolAdd.Image")));
             this.toolAdd.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolAdd.Name = "toolAdd";
-            this.toolAdd.Size = new System.Drawing.Size(98, 44);
+            this.toolAdd.Size = new System.Drawing.Size(82, 44);
             this.toolAdd.Tag = "3";
             this.toolAdd.Text = "添加";
             this.toolAdd.Click += new System.EventHandler(this.toolAdd_Click);
@@ -132,7 +131,7 @@
             this.toolAmend.Image = ((System.Drawing.Image)(resources.GetObject("toolAmend.Image")));
             this.toolAmend.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolAmend.Name = "toolAmend";
-            this.toolAmend.Size = new System.Drawing.Size(98, 44);
+            this.toolAmend.Size = new System.Drawing.Size(82, 44);
             this.toolAmend.Tag = "4";
             this.toolAmend.Text = "修改";
             this.toolAmend.Click += new System.EventHandler(this.toolAmend_Click);
@@ -143,7 +142,7 @@
             this.toolDelete.Image = ((System.Drawing.Image)(resources.GetObject("toolDelete.Image")));
             this.toolDelete.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolDelete.Name = "toolDelete";
-            this.toolDelete.Size = new System.Drawing.Size(98, 44);
+            this.toolDelete.Size = new System.Drawing.Size(82, 44);
             this.toolDelete.Tag = "5";
             this.toolDelete.Text = "删除";
             this.toolDelete.Click += new System.EventHandler(this.toolDelete_Click);
@@ -153,7 +152,7 @@
             this.toolreflush.Image = ((System.Drawing.Image)(resources.GetObject("toolreflush.Image")));
             this.toolreflush.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolreflush.Name = "toolreflush";
-            this.toolreflush.Size = new System.Drawing.Size(98, 44);
+            this.toolreflush.Size = new System.Drawing.Size(82, 44);
             this.toolreflush.Text = "刷新";
             this.toolreflush.Click += new System.EventHandler(this.toolreflush_Click);
             // 
@@ -189,7 +188,7 @@
             this.txtOK.Image = ((System.Drawing.Image)(resources.GetObject("txtOK.Image")));
             this.txtOK.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.txtOK.Name = "txtOK";
-            this.txtOK.Size = new System.Drawing.Size(98, 44);
+            this.txtOK.Size = new System.Drawing.Size(82, 44);
             this.txtOK.Tag = "6";
             this.txtOK.Text = "查找";
             this.txtOK.Click += new System.EventHandler(this.txtOK_Click);
@@ -199,7 +198,7 @@
             this.toolExit.Image = ((System.Drawing.Image)(resources.GetObject("toolExit.Image")));
             this.toolExit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolExit.Name = "toolExit";
-            this.toolExit.Size = new System.Drawing.Size(98, 44);
+            this.toolExit.Size = new System.Drawing.Size(82, 44);
             this.toolExit.Tag = "7";
             this.toolExit.Text = "退出";
             this.toolExit.Click += new System.EventHandler(this.toolExit_Click);
@@ -231,7 +230,7 @@
             this.dgvAccountInfo.Name = "dgvAccountInfo";
             this.dgvAccountInfo.RowHeadersWidth = 82;
             this.dgvAccountInfo.RowTemplate.Height = 23;
-            this.dgvAccountInfo.Size = new System.Drawing.Size(1298, 470);
+            this.dgvAccountInfo.Size = new System.Drawing.Size(1298, 480);
             this.dgvAccountInfo.TabIndex = 0;
             this.dgvAccountInfo.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvAccountInfo_CellClick);
             // 
@@ -410,6 +409,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1374, 832);
             this.Controls.Add(this.groupBox2);

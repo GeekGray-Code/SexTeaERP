@@ -64,7 +64,12 @@ namespace SexTeaERP.Base
             {
                 if (tvCostType.SelectedNode.Tag != null)
                 {
-                    strCostTypeCode = tvCostType.SelectedNode.Tag.ToString();
+                    /*
+                     * tvCostType.SelectedNode 返回一个 TreeNode
+                     * TreeNode.Tag:获取或设置包含树节点有关数据的对象。
+                     
+                     */
+                    strCostTypeCode = tvCostType.SelectedNode.Tag.ToString();//treeview
 
                     if (commUse.IsExistConstraint("BSCostType", strCostTypeCode))
                     {
@@ -100,7 +105,7 @@ namespace SexTeaERP.Base
 
         private void btnQuit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Close();//关闭窗口
         }
 
         private void tvCostType_AfterSelect(object sender, TreeViewEventArgs e)
@@ -112,7 +117,7 @@ namespace SexTeaERP.Base
             {
                 if (tvCostType.SelectedNode.Tag != null)
                 {
-                    //基础费用类型，禁止修改和删除
+                    //基础费用类型，禁止修改和删除，即采购费用和销售费用
                     if (tvCostType.SelectedNode.Tag.ToString() == "01" || tvCostType.SelectedNode.Tag.ToString() == "02")
                     {
                         btnAmend.Enabled = false;
